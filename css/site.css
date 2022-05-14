@@ -1,14 +1,12 @@
+/*css style for full page*/
+
 html{
   line-height: 1.2;
   color: #000000;
-  background-color: #B0E0E6;
+  background-color: #242654;
 }
 
-
-body{
-
-}
-
+/*css style for title and headers*/
 h1, h2{
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 100px;
@@ -19,30 +17,35 @@ h2{
   font-size: 50px;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
+/*container for Mood button and image*/
+.container {
+  position: relative;
+  width: auto;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+  background-position: 0px 20000px 0px 10px
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: aqua;
+  font-size: 30px;
+  padding: 12px 24px;
   border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 5px;
 }
-
-
-.button1 {
-  background-color: white;
-  color: black;
-  border: 2px solid #4CAF50;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
+/*hover effect for button within the image*/
+.container .btn:hover {
+  background-color: black;
 }
