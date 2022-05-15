@@ -133,3 +133,17 @@ h2{
     animation-play-state: running;
     animation-name: clouds;
 }
+
+.topCloud4 {
+  max-width: 370px;
+  top: 60%;
+  animation: clouds 13.5s 5.5s infinite linear;
+    animation-duration: 15.5s;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: clouds;
+}

@@ -17,12 +17,25 @@
 	</div>
 
 <!---Adding mood button onto cloud mood cloud image:--->
-	<div class="container">
+	<div class="container" onclick="myFunction()" >
   	<img src="img/mood_cloud.png">
-  	<button class="btn">What Mood Are You In?</button>
+  	<button class="btn" onclick="displayPopup">What Mood Are You In?</button>
 
-		<div class="popup" onclick="myFunction()">
-  		<span class="popuptext" id="myPopup">OCD</span>
+		<div class="Popup" onclick="myFunction()">
+			<img src="img/cloudOptions_button.png">
+			<!---onclick this displays the songs based on the moods clicked --->
+			<button id="mood1" onclick="displaySongs(1)">Anxiety</button>
+			<button id="mood2" onclick="displaySongs(2)">Bipolar</button>
+			<button id="mood3" onclick="displaySongs(3)">Depression</button>
+			<button id="mood4" onclick="displaySongs(4)">OCD</button>
+			<button id="mood5" onclick="displaySongs(5)">Insomnia</button>
+
+			<!---Songs displayed --->
+			<button id="song1" visibility="hidden">Breaking Down</button>
+			<button id="song2" visibility="hidden">Breathin</button>
+			<button id="song3" visibility="hidden">Help</button>
+			<button id="song4" visibility="hidden">Overkill</button>
+			<button id="song5" visibility="hidden">Crawling</button>
 		</div>
 
 	</div>
@@ -32,11 +45,8 @@
 		<img  class="topCloud topCloud1 load" data-src="img/cloud-1.png" src="img/cloud-1.png">
 		<img  class="mediumCloud topCloud2 load" data-src="img/cloud-2.png" src="img/cloud-2.png">
 		<img  class="mediumCloud topCloud3 load" data-src="img/cloud-3.png" src="img/cloud-3.png">
+		<img class="mediumCloud topCloud4 load" data-src="img/cloud_bunch.png" src="img/cloud_bunch.png">
 	</div>
-
-
-
-
 
 
 </body>
