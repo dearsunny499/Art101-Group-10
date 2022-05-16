@@ -1,7 +1,7 @@
 
 // updates htlm visability for songs being selected
 function displayMoods() {
-  If (moodNum == 1)
+  If (moodNum == 0)
   {
 
   //elements you want to show as visible
