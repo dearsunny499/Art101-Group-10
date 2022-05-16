@@ -1,7 +1,7 @@
 
 // updates htlm visability for songs being selected
 function displayMoods() {
-  If (moodNum == 0)
+  If (moodNum == 0);
   {
 
   //elements you want to show as visible
@@ -16,7 +16,32 @@ function displayMoods() {
   }
 }
 
+//Return Song list 1, 2, 3, 4, or 5 depending on the mood selected.
+function displaySongs(mod) {
 
+  mod = displayMoods();
+  if (mod == mood1)
+  return "song1"
+}
+else if (mod == mood2) {
+  return "song2"
+}
+else if (mod == mood3) {
+  return "song3"
+}
+else if (mod == mood4) {
+  return "song4"
+}
+else if (mod == mood5) {
+  return "song5"
+}
+
+
+var myButton = document.getElementById("btn");
+myButton.addEventListener("click", function()) {
+  var mood = document.getElementById("input").value;
+  var
+}
 //Each mood has five songs connected to it
 //EX: Mood 1 = 5 songs ==> Each song has one fact bar
 
