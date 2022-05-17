@@ -37,11 +37,7 @@ else if (mod == mood5) {
 }
 
 
-var myButton = document.getElementById("btn");
-myButton.addEventListener("click", function()) {
-  var mood = document.getElementById("input").value;
-  var
-}
+
 //Each mood has five songs connected to it
 //EX: Mood 1 = 5 songs ==> Each song has one fact bar
 
