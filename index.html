@@ -3,11 +3,11 @@
 <head>
 	<title>Group Project - DreamFlow</title>
 	<link rel="stylesheet" type="text/css" href="css/site.css">
-  <script src="js/site.js" defer></script>
 	<script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+	<script src="js/site.js" defer></script>
 </head>
 <body>
 
@@ -19,45 +19,35 @@
 
 
 <!---Adding mood button onto cloud mood cloud image:--->
-	<div class="container" onclick="myFunction()" >
+	<div class="container">
   	<img src="img/mood_cloud.png">
 		<!---Main Button: Displays Moods:--->
-  	<button class="btn" onclick="displayMoods">What Mood Are You In?</button>
+  	<div class="start" id="main-btn">cLick me: What Mood Are You In?</div>
 	</div>
 
 <!---onclick this displays the songs based on the moods clicked --->
-		<div class="mood" onclick="displaySongs()">
+		<div class="mood hide">
 			<img src="img/cloudOptions_button.png">
 
-			<button id="mood1" onclick="displaySongs(1)">Anxiety</button>
-			<button id="mood2" onclick="displaySongs(2)">Bipolar</button>
-			<button id="mood3" onclick="displaySongs(3)">Depression</button>
-			<button id="mood4" onclick="displaySongs(4)">OCD</button>
-			<button id="mood5" onclick="displaySongs(5)">Insomnia</button>
+			<button id="mood1">Anxiety</button>
+			<button id="mood2">Bipolar</button>
+			<button id="mood3">Depression</button>
+			<button id="mood4">OCD</button>
+			<button id="mood5">Insomnia</button>
 		</div>
 
 
-	<!---Songs display facts --->
-		<div class="song" onclick="display-Facts()">
+	<!---Group 01 for songs --->
+		<div class="song01 hide">
 
-			<button id="song1" onclick="display-Facts">Breaking Down</button>
-			<button id="song2" onclick=""="display-Facts">Breathin</button>
-			<button id="song3" onclick=""="display-Facts">Help</button>
-			<button id="song4" onclick=""="display-Facts">Overkill</button>
-			<button id="song5" onclick=""="display-Facts">Crawling</button>
+			<button id="song1">Breaking Down</button>
+			<button id="song2">Breathin</button>
+			<button id="song3">Help</button>
+			<button id="song4">Overkill</button>
+			<button id="song5">Crawling</button>
 		</div>
 
-		<!---<div class="output-button">
-			<div id="facts-output" class="hidden">
-				<img src="img/facts-box.png">
-				<h2> Artist Facts: </h2>
-				<p> "Facts" </p>
-				<h2> Song Facts: </h2>
-				<p>"Facts"</p>
-				<h2> Mental Facts: </h2>
-				<p> Facts on how the song affects the listener </p>
-			</div>
-		</div> --->
+		
 
 	<!---Cloud Images--->
 

@@ -18,21 +18,9 @@ h2{
   font-size: 50px;
 }
 
-/*#facts-output{
-  position: absolute;
-    right: 350px;
-    padding: 50px;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    background-color: white;
-    width: 500px;
+.hide {
+  display: none;
 }
-
-.hidden {
-  visibility: hidden;
-}*/
 
 /*container for Mood button and image*/
 .container {
@@ -48,7 +36,7 @@ h2{
 }
 
 /* Style the button and place it in the middle of the container/image */
-.container .btn {
+.container .start {
   position: absolute;
   top: 60%;
   left: 53%;
@@ -64,7 +52,7 @@ h2{
   border-radius: 5px;
 }
 /*hover effect for button within the image*/
-.container .btn:hover {
+.container .start:hover {
   background-color: #8e8eb8;
 }
 

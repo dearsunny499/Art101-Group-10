@@ -1,40 +1,13 @@
 
 // updates htlm visability for songs being selected
 function displayMoods() {
-  If (moodNum == 0);
-  {
 
-  //elements you want to show as visible
-  document.getElementById("mood1").style.visibility ="visible";
-
-  //don't forget to set all the other elements to hidden
-  document.getElementById("mood2").style.visibility ="visible";
-  document.getElementById("mood3").style.visibility ="visible";
-  document.getElementById("mood4").style.visibility ="visible";
-  document.getElementById("mood5").style.visibility ="visible";
-
-  }
+  $(".mood").show();
 }
 
-//Return Song list 1, 2, 3, 4, or 5 depending on the mood selected.
-function displaySongs(mod) {
+$("#main-btn").click(displayMoods);
 
-  mod = displayMoods();
-  if (mod == mood1)
-  return "song1"
-}
-else if (mod == mood2) {
-  return "song2"
-}
-else if (mod == mood3) {
-  return "song3"
-}
-else if (mod == mood4) {
-  return "song4"
-}
-else if (mod == mood5) {
-  return "song5"
-}
+
 
 
 
