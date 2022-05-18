@@ -22,7 +22,7 @@ h2{
   display: none;
 }
 
-/*container for Mood button and image*/
+/*container for buttons and images*/
 .container {
   position: relative;
   width: auto;
@@ -35,7 +35,7 @@ h2{
   background-position: 80px 0px 70px 10px
 }
 
-/* Style the button and place it in the middle of the container/image */
+/* Styles the button within class start and place it in the middle of the container/image */
 .container .start {
   position: absolute;
   top: 60%;
@@ -51,10 +51,39 @@ h2{
   cursor: pointer;
   border-radius: 5px;
 }
-/*hover effect for button within the image*/
+/*hover effect for button "Main BUTTON" within the image*/
 .container .start:hover {
   background-color: #8e8eb8;
 }
+
+/*Container with class mood*/
+.contaiiner .mood{
+  position: absolute;
+  top: 60%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: #FFF5EE;
+  font-size: 70px;
+  font-family: 'Brush Script MT', cursive;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*hover effect for class Mood within the image*/
+.container .mood:hover {
+  background-color: #8e8eb8;
+}
+
+
+
+
+
+
+
 
 /*Animated clouds*/
 
@@ -65,6 +94,13 @@ h2{
   z-index: -1;
   left: 0;
 }
+
+
+
+
+
+
+
 
 /*controls the cloud animation sequence*/ /*Allows the cloud to move in a steady pace*/
 @keyframes clouds {

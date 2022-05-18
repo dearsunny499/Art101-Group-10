@@ -11,45 +11,54 @@
 </head>
 <body>
 
-	<!--- Title and Group Name--->
-	<div id="header">
-		<h1> DreamFlow</h1>
-  	<h2>Art101 Group 10</h2>
-	</div>
-
-
-<!---Adding mood button onto cloud mood cloud image:--->
-	<div class="container">
-  	<img src="img/mood_cloud.png">
-		<!---Main Button: Displays Moods:--->
-  	<div class="start" id="main-btn">cLick me: What Mood Are You In?</div>
-	</div>
-
-<!---onclick this displays the songs based on the moods clicked --->
-		<div class="mood hide">
-			<img src="img/cloudOptions_button.png">
-
-			<button id="mood1">Anxiety</button>
-			<button id="mood2">Bipolar</button>
-			<button id="mood3">Depression</button>
-			<button id="mood4">OCD</button>
-			<button id="mood5">Insomnia</button>
+		<!--- Title and Group Name--->
+		<div id="header">
+			<h1> DreamFlow</h1>
+	  	<h2>Art101 Group 10</h2>
 		</div>
 
 
-	<!---Group 01 for songs --->
-		<div class="song01 hide">
-
-			<button id="song1">Breaking Down</button>
-			<button id="song2">Breathin</button>
-			<button id="song3">Help</button>
-			<button id="song4">Overkill</button>
-			<button id="song5">Crawling</button>
+	<!---Adding mood button onto cloud mood cloud image:--->
+		<div class="container">
+	  	<img src="img/mood_cloud.png">
+			<!---Main Button: Displays Moods:--->
+	  	<div class="start" id="main-btn">What Mood Are You In?</div>
 		</div>
 
-		
 
-	<!---Cloud Images--->
+
+	<!---This class displays the moods after "main-butn" is selected --->
+			<div class="mood hide container">
+				<img src="img/cloudOptions_button.png">
+
+				<button id="mood1">Anxiety</button>
+				<button id="mood2">Bipolar</button>
+				<button id="mood3">Depression</button>
+				<button id="mood4">OCD</button>
+				<button id="mood5">Insomnia</button>
+			</div>
+
+
+		<!---Class songs (20 songs total : four songs per mood) displays after the moods
+		are selected--->
+			<div class="song01 hide container">
+				<button class="song" data-songnum=0>Song1</button>
+				<button class="song" data-songnum=1>Song2</button>
+				<button class="song" data-songnum=2>Song3</button>
+				<button class="song" data-songnum=3>Song4</button>
+			</div>
+
+
+	<!---Class Facts (20 facts total: One fact per song) displays after an individual song is selected --->
+		<div class="facts hide container">
+			<img src="img/facts-box.png">
+
+			<button id="fact" data-factnum=0>Fact01</button>
+
+
+
+
+	<!---Cloud Images For the Top of the Page--->
 
 	<div class="clouds">
 		<img  class="topCloud topCloud1 load" data-src="img/cloud-1.png" src="img/cloud-1.png">
