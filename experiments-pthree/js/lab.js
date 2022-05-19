@@ -78,8 +78,19 @@ var songTable = [
     image: "song2.jpg"
   },
 	{
-  	title: "Song 3",
-    description: "Here is information about song 3.",
+		songTitle: "Overkill " ,
+		author: " Song by Colin Hay",
+
+		title02: "<u>Artist Facts</u>: ",
+    description: ("<ol><li>Colin James Hay is a Scottish-born Australian-American "+
+		" musician, singer, songwriter, and actor.</li><br><li>He came to prominence "+
+		" as the lead vocalist of the band Men at Work and later as a solo artist.</li><br>"+
+		" <li>Hay's music has been used frequently by actor and director Zach Braff "+
+		" in his work, which helped a career rebirth in the mid-2000s.</li><br><li> "+
+		" Hay has also been a member of Ringo Starr's Ringo Starr & His All-Starr Band.</li></ol>"),
+
+		title03: "<u>Song Facts</u>:",
+		description02: ("<ol><li> </li></ol>"),
     image: "song3.jpg"
   },
   {
