@@ -56,33 +56,6 @@ h2{
   background-color: #8e8eb8;
 }
 
-/*Container with class mood*/
-.contaiiner .mood{
-  position: absolute;
-  top: 60%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: Transparent;
-  color: #FFF5EE;
-  font-size: 70px;
-  font-family: 'Brush Script MT', cursive;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-/*hover effect for class Mood within the image*/
-.container .mood:hover {
-  background-color: #8e8eb8;
-}
-
-
-
-
-
-
 
 
 /*Animated clouds*/
@@ -94,12 +67,6 @@ h2{
   z-index: -1;
   left: 0;
 }
-
-
-
-
-
-
 
 
 /*controls the cloud animation sequence*/ /*Allows the cloud to move in a steady pace*/

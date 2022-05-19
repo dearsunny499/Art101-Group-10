@@ -23,7 +23,7 @@ var songTable = [
   	title: "Song 3",
     description: "Here is information about song 3.",
     image: "song3.jpg"
-  }
+  },
   {
   	title: "Song 4",
     description: "Here is information about song 3.",
