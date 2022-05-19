@@ -154,3 +154,68 @@ h2{
     animation-play-state: running;
     animation-name: clouds;
 }
+
+
+
+#mood1{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+
+}
+
+
+#mood2{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+
+#mood3{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+#mood4{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+#mood5{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}

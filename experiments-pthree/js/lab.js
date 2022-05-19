@@ -10,8 +10,8 @@
 var songTable = [
 	{
     //break up the song title and artist name
-  	songTitle: "Breathin" ,
-		author: "Ariana Grande",
+  	songTitle: "Breathin " ,
+		author: " Song by Ariana Grande",
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
     description: ("<ol><li><b>Ariana Grande</b> is perhaps the quintessential pop "+
@@ -34,23 +34,47 @@ var songTable = [
     " <li>The picture Grande paints with her lyrics, with everyday tasks seemingly taking "+
     " more energy and the feeling that the room is spinning, is one every person "+
     " who has ever suffered from anxiety will recognize.</li><br> <li>Leading into the pre-chorus, "+
-    " Grande shares some of the feelings she endures in those moments.</li> "),
+    " Grande shares some of the feelings she endures in those moments.</li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
-    description03: ("For many years people kept their stories to themselves in fear "+
-    " that they would be ridiculed. For listeners really paying attention to the "+
-    " song, \"breathin\" is about that feeling a person gets when they are so anxious "+
-    " that they can not get a full breath in. It is something most, if not all anxiety "+
-    " sufferers have dealt with. It can be absolutely horrifying, especially if "+
-    " the person dealing with it has no idea why it is happening. This song will "+
+    description03: ("<ol><li>For many years people kept their stories to themselves in fear "+
+    " that they would be ridiculed.</li><br> <li>For listeners really paying attention to the "+
+    " song,<b> \"Breathin\" </b> is about that feeling a person gets when they are so anxious "+
+    " that they can not get a full breath in.</li><br> <li>It is something most, if not all anxiety "+
+    " sufferers have dealt with.</li><br> <li>It can be absolutely horrifying, especially if "+
+    " the person dealing with it has no idea why it is happening.</li><br> <li>This song will "+
     " put listeners within themselves to not only understand their anxieties but "+
-    " also relate. "),
+    " also relate.</li></ol> "),
 
-    image: "breathin.png"
+    image: "song1.jpg"
   },
 	{
-  	title: "Song 2",
-    description: "Here is information about song 2.",
+  	songTitle: "Help ",
+		author: "Song by The Beatles",
+
+		title02: "<u>Artist Facts</u>: ",
+    description: ("<ol><li> <b>The Beatles</b> were an English rock band, formed in Liverpool "+
+		" in 1960, that comprised <b>John Lennon</b>, <b>Paul McCartney</b>, <b>George Harrison</b>,and <b>Ringo Starr</b>. </li><br> "+
+		" <li>They are regarded as the most influential band of all time and were integral "+
+		" to the development of 1960s counterculture and popular music's recognition "+
+		" as an art form.</li> <br><li><dl><b>Active From:</b><br> <dd>- 1960<br></dl></dd></li> <dl><li><b>Genres:</b><br><dd>- Rock, Pop, Beat, and Psychedelia </dd></dl></li><br>"+
+		" <li><b>First Hit:</dt></b><br> <dd>- Love Me Do</dd> </li></ol>"),
+
+		title03: "<u>Song Facts</u>:",
+    description02: ("<ol><li> Released July 19 1965</li><br> <li>Served as the title song for " +
+		" the 1965 film and its soundtrack album. </li><br> <li>Lennon wrote the lyrics "+
+		" of the song to express his stress after the Beatles' quick rise to success.</li><br>"+
+		" <li>Lenon expressed that the song was his cry for help as he dealt with the anxiety of fame. </li><br>"+
+		" <li>The song dealt as the first crack in the protective shell Lennon had built "+
+		" around his emotions. </li></ol>"),
+
+		title04: "<u>Mental Facts</u>:",
+		description03: ("<ol><li>The <b>song Help</b> is really the basis of the <b>movie Help</b> itself. </li><br>"+
+		" <li>The movie slyly refers to drug use and how anxiety really can lead to "+
+		" darker places if ignored.</li><br> <li>The song will place a listener in a "+
+		" vulnerable place.</li><br> <li>As it talks about all anxieties that come with "+
+		" fame and also hiding your true feelings. </li></ol>"),
+
     image: "song2.jpg"
   },
 	{
@@ -76,6 +100,7 @@ $(".song").click(function(){
   // string substitution in the next
   // few lines using backticks and ${}
   songHTML = `
+	<img class="image" src='img/${songData.image}'>
   	<h2 class=title>${songData.songTitle}</h2>
 		<h2 class=title>${songData.author}</h2>
 
@@ -87,7 +112,11 @@ $(".song").click(function(){
 
     <h2 class=title04>${songData.title04}</h2>
     <div class="desc">${songData.description03}</div>
-    <img class="image" src='img/${songData.image}'>
+
+</body>
+</html>
+
+
     `
 	$("#show-song").html(songHTML);
 });
