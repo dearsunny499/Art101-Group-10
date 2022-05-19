@@ -4,10 +4,16 @@ $('#hidden').hide();
 //hidden.style.display='none';
 
 // updates htlm visability for songs being selected
-function displayMoods() {
+function displayMood() {
   $("#hidden").show();
-   alert('a click occured');
+
 }
 
 // on main-btn click, call displayMoods()
-$("#main-btn").click(displayMoods);
+$("#main-btn").click(displayMood);
+
+
+function displaySong() {
+  $("#hidden").show();
+}
+$("#mood1").click(displaySong);

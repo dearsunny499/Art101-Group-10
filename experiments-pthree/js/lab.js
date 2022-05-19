@@ -12,30 +12,31 @@ var songTable = [
     //break up the song title and artist name
   	songTitle: "Breathin" ,
 		author: "Ariana Grande",
-    title02: "Artist Facts",
+    title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<b>Ariana Grande</b> is perhaps the quintessential pop "+
-    " star of the last half of the 2010s, capturing the era's spirit and style. " +
-    " Emerged in 2013 with the hit single \"The Way\". Underscored her debt to 90s and " +
-    " R&B. Later incorporating hip-hop and EDM. Grande began singing and acting at " +
-    " an early age, appearing in local theater productions. " +
-    " Her four-octave vocal range has received public acclaim, and her personal " +
-    " life has been the subject of widespread media attention. "),
-    title03: "Song Facts",
+    description: ("<ol><li><b>Ariana Grande</b> is perhaps the quintessential pop "+
+    " star of the last half of the 2010s, capturing the era's spirit and style.</li><br> " +
+    " <li>Emerged in 2013 with the hit single \"The Way\". Underscored her debt to 90s and " +
+    " R&B.</li><br> <li>Later incorporating hip-hop and EDM. Grande began singing and acting at " +
+    " an early age, appearing in local theater productions.</li><br> " +
+    " <li>Her four-octave vocal range has received public acclaim, and her personal " +
+    " life has been the subject of widespread media attention.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
     //Bold ANXIETY
-    description02: ("Ariana Grande released her highly-anticipated album Sweetener "+
+    description02: ("<ol><li>Ariana Grande released her highly-anticipated album <b>Sweetener</b> "+
     " on Friday, August 17 and while there are several songs on the project that "+
     " have struck a chord with fans, listeners couldn't help but to wonder if the "+
-    " lyrics to Grande's \"Breathin\" are about the singer's struggle with anxiety. "+
-    " \"My anxiety has anxiety, I've always had anxiety. I've never really spoken about it because I thought everyone had it, but when I got home from the tour it was the most severe I think it's ever been.\" - Ariana Grande. "+
-    " Breathin is about being reminded that when life is just taking over and you "+
-    " can't see a way to sense your core self, you need to stop and just breathe. "+
-    " The picture Grande paints with her lyrics, with everyday tasks seemingly taking "+
+    " lyrics to Grande's <b>\"Breathin\"</b> are about the singer's struggle with anxiety.</li><br> "+
+    " <li><i><b>\"My anxiety has anxiety, I've always had anxiety. I've never really spoken about it because I thought everyone had it, but when I got home from the tour it was the most severe I think it's ever been.\"</b></i> - Ariana Grande.</li><br> "+
+    " <li>Breathin is about being reminded that when life is just taking over and you "+
+    " can't see a way to sense your core self, you need to stop and just breathe.</li><br> "+
+    " <li>The picture Grande paints with her lyrics, with everyday tasks seemingly taking "+
     " more energy and the feeling that the room is spinning, is one every person "+
-    " who has ever suffered from anxiety will recognize. Leading into the pre-chorus, "+
-    " Grande shares some of the feelings she endures in those moments. "),
+    " who has ever suffered from anxiety will recognize.</li><br> <li>Leading into the pre-chorus, "+
+    " Grande shares some of the feelings she endures in those moments.</li> "),
 
-    title04: "Mental Facts",
+    title04: "<u>Mental Facts</u>:",
     description03: ("For many years people kept their stories to themselves in fear "+
     " that they would be ridiculed. For listeners really paying attention to the "+
     " song, \"breathin\" is about that feeling a person gets when they are so anxious "+
