@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Group Project - DreamFlow</title>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<script src="js/lab.js" defer></script>
+</head>
+<!--- Title and Group Name--->
+<div id="header">
+	<h1> DreamFlow</h1>
+  	<h2>Art101 Group 10</h2>
+</div>
+
+
+<!--- <input type="image" src="Cloud.png" name="chooseMood" class="What is your Mood?" id="saveForm" value="What is your Mood?" /> -->
+
+<!---Adding mood button onto cloud mood cloud image:--->
+<div class="container">
+  	<img src="img/mood_cloud.png">
+	<!---Main Button: Displays Moods:--->
+  	<div class="start" id="main-btn">What Mood Are You In?</div>
+</div>
+
+<!---This class displays the moods after "main-butn" is selected --->
+			<div class="mood-hide-container" id='hidden'>
+				<img src="img/cloudOptions_button.png">
+
+				<button id="mood1">Anxiety</button>
+				<button id="mood2">Bipolar</button>
+				<button id="mood3">Depression</button>
+				<button id="mood4">OCD</button>
+				<button id="mood5">Insomnia</button>
+			</div>

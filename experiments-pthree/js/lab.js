@@ -10,10 +10,11 @@
 var songTable = [
 	{
     //break up the song title and artist name
-  	title: "Breathin: by Ariana Grande" ,
+  	songTitle: "Breathin" ,
+		author: "Ariana Grande",
     title02: "Artist Facts",
     //need to make these bullet point notes
-    description: ("Ariana Grande is perhaps the quintessential pop "+
+    description: ("<b>Ariana Grande</b> is perhaps the quintessential pop "+
     " star of the last half of the 2010s, capturing the era's spirit and style. " +
     " Emerged in 2013 with the hit single \"The Way\". Underscored her debt to 90s and " +
     " R&B. Later incorporating hip-hop and EDM. Grande began singing and acting at " +
@@ -74,7 +75,8 @@ $(".song").click(function(){
   // string substitution in the next
   // few lines using backticks and ${}
   songHTML = `
-  	<h2 class=title>${songData.title}</h2>
+  	<h2 class=title>${songData.songTitle}</h2>
+		<h2 class=title>${songData.author}</h2>
 
     <h2 class=title02>${songData.title02}</h2>
     <div class="desc">${songData.description}</div>
