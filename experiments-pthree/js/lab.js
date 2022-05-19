@@ -16,7 +16,7 @@ var songTable = [
     //need to make these bullet point notes
     description: ("<ol><li><b>Ariana Grande</b> is perhaps the quintessential pop "+
     " star of the last half of the 2010s, capturing the era's spirit and style.</li><br> " +
-    " <li>Emerged in 2013 with the hit single \"The Way\". Underscored her debt to 90s and " +
+    " <li>Emerged in 2013 with the hit single <b>\"The Way\"</b>. Underscored her debt to 90s and " +
     " R&B.</li><br> <li>Later incorporating hip-hop and EDM. Grande began singing and acting at " +
     " an early age, appearing in local theater productions.</li><br> " +
     " <li>Her four-octave vocal range has received public acclaim, and her personal " +
@@ -90,12 +90,38 @@ var songTable = [
 		" Hay has also been a member of Ringo Starr's Ringo Starr & His All-Starr Band.</li></ol>"),
 
 		title03: "<u>Song Facts</u>:",
-		description02: ("<ol><li> </li></ol>"),
+		description02: ("<ol><li>This was the first single from Men at Work's second "+
+		" album, Cargo.</li><br><li>The band quickly went from a local Australian group "+
+		" to a worldwide success.</li><br><li>OverKill was a song about what was happening "+
+		" at the time, the experience we were going through of stepping into the unknown.</li><br><li>"+
+		" It's about having a fear about the unknown, but also knowing that what was going "+
+		" to happen was inevitable.</li><br><li> Leaving behind where you are and stepping "+
+		" into something which is out of your control to some degree.</li></ol>"),
+
+		title04: "<u>Mental Facts</u>:",
+		description03: ("<ol><li> This song could relate a listener to a relationship "+
+		" with a person or a relationship with a place.</li><br><li> It's about placing "+
+		" a listener into a state about leaving somewhere and leaving your comfort zone.</li><br><li>"+
+		" It reminds a listener that we as humans spend a lot of years trying to get "+
+		" something - fame or recognition or getting to a certain point, and then when "+
+		" you actually achieve it, there's always a certain amount of fear that comes "+
+		" with that, a sense of loss of control, because all of the sudden you're not "+
+		" in control of a situation any more, there's other people involved, it gets bigger "+
+		" and bigger with much more stress.</li></ol>"),
+
     image: "song3.jpg"
   },
   {
-  	title: "Song 4",
-    description: "Here is information about song 4.",
+		songTitle: "Crawling " ,
+		author: " Song by Linkin Park",
+
+		title02: "<u>Artist Facts</u>: ",
+    description: ("<ol><li>Linkin Park is an American rock band from Agoura Hills, California.</li><br><li>"+
+		" The band's current lineup comprises vocalist/rhythm guitarist/keyboardist <b>Mike Shinoda</b>, "+
+		" lead guitarist <b>Brad Delson</b>, bassist <b>Dave Farrell</b>, DJ/turntablist <b>Joe Hahn</b> "+
+		" and drummer <b>Rob Bourdon</b>, all of whom are founding members.</li><br><li>Linkin Park "+
+		" is among the best-selling bands of the 21st century and the world's best-selling "+
+		" music artists, having sold over 100 million records worldwide.</li></ol>"),
     image: "song4.jpg"
   }
 
