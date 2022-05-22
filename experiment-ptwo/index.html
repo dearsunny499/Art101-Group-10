@@ -20,35 +20,38 @@
 
 <!--- <input type="image" src="Cloud.png" name="chooseMood" class="What is your Mood?" id="saveForm" value="What is your Mood?" /> -->
 
-	<!---Adding mood button onto cloud mood cloud image:--->
-	<div class="container">
-	  	<img src="img/mood_cloud.png">
 		<!---Main Button: Displays Moods:--->
-	  	<div class="start" id="main-btn">What Mood Are You In?</div>
-	</div>
+
+ 		 	<!---Main Button: Displays Moods:--->
+ 		 	<div class="start" id="main-btn">What Mood Are You In?</div>
+ 	
 
 <!---This class displays the moods after "main-butn" is selected --->
-			<div class="mood-hide-container" id='hidden'>
-				<img src="img/cloudOptions_button.png">
+		<div class="mood-hide-container" id='hidden'>
 
 				<button id="mood1">Anxiety</button>
 				<button id="mood2">Bipolar</button>
 				<button id="mood3">Depression</button>
 				<button id="mood4">OCD</button>
 				<button id="mood5">Insomnia</button>
-			</div>
+
+		</div>
+
+<!---	<button type="reset" value="Reset">Reset</button> -->
+<!--- Add a way to reset the button click options. After the user goes through the songs they should be able to go back to the mood selections --->
 
 <!---Class songs (20 songs total : four songs per mood) displays after a mood is selected -->
-      <div class='song-container' id='songs'> <!-- start songs container -->
+    <div class='song-container' id='songs'> <!-- start songs container -->
 
 			<div class="mood1-songs-hide-container" id='mood-1-songs'>
-				<button class="song" data-songnum=0>anxietySong1</button>
-				<button class="song" data-songnum=1>anxietySong2</button>
-				<button class="song" data-songnum=2>anxietySong3</button>
-				<button class="song" data-songnum=3>anxietySong4</button>
+				<button class="song" data-songnum=0>Song1: Breathin</button>
+				<button class="song" data-songnum=1>Song2: Help</button>
+				<button class="song" data-songnum=2>Song3: Overkill</button>
+				<button class="song" data-songnum=3>Song4: Crawling</button>
 
 				<div id="show-song1">
 				</div>
+
 			</div>
 
 			<!--- Song List for Mood2--->
@@ -57,6 +60,9 @@
 				<button class="song" data-songnum=1>bipolarSong2</button>
 				<button class="song" data-songnum=2>bipolarSong3</button>
 				<button class="song" data-songnum=3>bipolarSong4</button>
+
+				<div id="show-song2">
+				</div>
 			</div>
 
 			<!--- Song List for Mood3--->
@@ -85,7 +91,7 @@
 
 
 
-      </div> <!-- end songs container -->
+    </div> <!-- end songs container -->
 
 
 			<!-- Have each set of songs display their own facts. Currently Anxiety facts shows up for the other songs in the other moods as well -->

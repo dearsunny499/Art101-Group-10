@@ -60,7 +60,7 @@ $("#mood4").click(displaySongs);
 $("#mood5").click(displaySongs);
 
 //Songtable for facts once a song choice is made: Anxiety
-var songTable = [
+var songTable1 = [
 	{
     //break up the song title and artist name
   	songTitle: "Breathin " ,
@@ -175,6 +175,20 @@ var songTable = [
 		" and drummer <b>Rob Bourdon</b>, all of whom are founding members.</li><br><li>Linkin Park "+
 		" is among the best-selling bands of the 21st century and the world's best-selling "+
 		" music artists, having sold over 100 million records worldwide.</li></ol>"),
+
+    title03: "<u>Song Facts</u>:",
+		description02: ("<ol><li> This song manifests that nasty feeling that something "+
+    " is crawling under your skin.</li><br><li>Much of the lyric delivered by <b>Chester "+
+    " Bennington</b> deals with the side effects of taking methamphetamines - a drug "+
+    " he used throughout his teens.</li><br><li>The song is about taking responsibility "+
+    " for your actions.</li><br><li><b>\'Crawling\'</b> is about feeling like I had no control "+
+    " over myself in terms of drugs and alcohol.</li></ol>"),
+
+    title04: "<u>Mental Facts</u>:",
+		description03: ("<ol><li> The anxiety, hallucinations and a feeling of things "+
+    " crawling under the skin arise.</li><br><li>The song applies to anyone feeling "+
+    " uncomfortable and helpless.</li></ol>"),
+
     image: "song4.jpg"
   }
 
@@ -184,13 +198,12 @@ var songTable = [
 $(".song").click(function(){
 	var songNum = $(this).data("songnum");
   console.log("Button Pressed: " + songNum);
-  var songData = songTable[songNum];
+  var songData = songTable1[songNum];
   console.log("Song data: ", songData);
-  // note we are using a tricky kind of
-  // string substitution in the next
-  // few lines using backticks and ${}
+
+
   songHTML = `
-	<img class="image" src='img/${songData.image}'>
+
   	<h2 class=title>${songData.songTitle}</h2>
 		<h2 class=title>${songData.author}</h2>
 
@@ -203,10 +216,141 @@ $(".song").click(function(){
     <h2 class=title04>${songData.title04}</h2>
     <div class="desc">${songData.description03}</div>
 
+    <img class="image" src='img/${songData.image}'>
+
 </body>
 </html>
 
 
     `
 	$("#show-song1").html(songHTML);
+
+});
+
+
+//Bipolar SongTable:
+
+var songTable2 = [
+	{
+    //break up the song title and artist name
+  	songTitle: " " ,
+		author: " ",
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> "+
+    "  " +
+    "  " +
+    "  " +
+    "  " +
+    "  " +
+    "  "),
+
+    title03: "<u>Song Facts</u>:",
+    //Bold Bipolar
+    description02: ("<ol><li> "+
+    "  "+
+    "  "+
+    "  "+
+    "  "+
+    "  "),
+
+    title04: "<u>Mental Facts</u>:",
+    description03: ("<ol><li> "+
+    "  "+
+    "  "+
+    "  "+
+    " </li></ol> "),
+
+    image: "song1.jpg"
+  },
+	{
+  	songTitle: " ",
+		author: "",
+
+		title02: "<u>Artist Facts</u>: ",
+    description: ("<ol><li> "+
+		" "+
+		"  </li></ol>"),
+
+		title03: "<u>Song Facts</u>:",
+    description02: ("<ol><li>  " +
+		" "+
+		" "+
+		" "+
+		"  </li></ol>"),
+
+		title04: "<u>Mental Facts</u>:",
+		description03: ("<ol><li> "+
+		" "+
+		" </li></ol>"),
+
+    image: "song2.jpg"
+  },
+	{
+		songTitle: " " ,
+		author: " Song by ",
+
+		title02: "<u>Artist Facts</u>: ",
+    description: ("<ol><li> "+
+		"  "+
+		" "+
+		" </li></ol>"),
+
+		title03: "<u>Song Facts</u>:",
+		description02: ("<ol><li> "+
+
+		" </li></ol>"),
+
+		title04: "<u>Mental Facts</u>:",
+		description03: ("<ol><li>  "+
+		" "+
+		" </li></ol>"),
+
+    image: "song3.jpg"
+  },
+  {
+		songTitle: " " ,
+		author: " Song by ",
+
+		title02: "<u>Artist Facts</u>: ",
+    description: ("<ol><li> "+
+		" </li></ol>"),
+    image: "song4.jpg"
+  }
+
+]
+
+
+//Bipolar SongTable function
+
+$(".song").click(function(){
+	var songNum = $(this).data("songnum");
+  console.log("Button Pressed: " + songNum);
+  var songData = songTable2[songNum];
+  console.log("Song data: ", songData);
+
+
+  songHTML = `
+
+  	<h2 class=title>${songData.songTitle}</h2>
+		<h2 class=title>${songData.author}</h2>
+
+    <h2 class=title02>${songData.title02}</h2>
+    <div class="desc">${songData.description}</div>
+
+    <h2 class=title03>${songData.title03}</h2>
+    <div class="desc">${songData.description02}</div>
+
+    <h2 class=title04>${songData.title04}</h2>
+    <div class="desc">${songData.description03}</div>
+
+    <img class="image" src='img/${songData.image}'>
+
+</body>
+</html>
+
+
+    `
+	$("#show-song2").html(songHTML);
+
 });

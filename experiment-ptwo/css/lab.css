@@ -1,9 +1,43 @@
-/*
-#hidden {
-  visibility: hidden;
-}
-*/
 
-#main-btn:hover {
-    background: red;
+html{
+  background-color: azure;
+}
+
+
+#main-btn:hover{
+  background-color: AliceBlue;
+}
+
+
+#mood1, #mood2, #mood3, #mood4, #mood5{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+#mood1{
+  float: left;
+  margin: -30px 5px 0px -30px;
+}
+
+ #mood2{
+   margin: -30px 5px 0px -90px;
+ }
+
+#mood3{
+   margin: -30px -10px 0px -90px;
+}
+
+#mood4{
+   margin: -30px -10px 0px -90px;
+}
+
+#mood5{
+   margin: -30px -10px 0px -90px;
 }
