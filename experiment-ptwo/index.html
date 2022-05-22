@@ -2,27 +2,30 @@
 <html>
 <head>
 	<title>Group Project - DreamFlow</title>
+
 	<script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	<script src="js/lab.js" defer></script>
 </head>
 
-<!--- Title and Group Name--->
-<div id="header">
-	<h1> DreamFlow</h1>
-  	<h2>Art101 Group 10</h2>
-</div>
+	<!--- Title and Group Name--->
+	<div id="header">
+		<h1> DreamFlow</h1>
+	  	<h2>Art101 Group 10</h2>
+	</div>
 
 
+<!--- <input type="image" src="Cloud.png" name="chooseMood" class="What is your Mood?" id="saveForm" value="What is your Mood?" /> -->
 
-<!---Adding mood button onto cloud mood cloud image:--->
-<div class="container">
-  	<img src="img/mood_cloud.png">
-	<!---Main Button: Displays Moods:--->
-  	<div class="start" id="main-btn">What Mood Are You In?</div>
-</div>
+	<!---Adding mood button onto cloud mood cloud image:--->
+	<div class="container">
+	  	<img src="img/mood_cloud.png">
+		<!---Main Button: Displays Moods:--->
+	  	<div class="start" id="main-btn">What Mood Are You In?</div>
+	</div>
 
 <!---This class displays the moods after "main-butn" is selected --->
 			<div class="mood-hide-container" id='hidden'>
@@ -35,14 +38,59 @@
 				<button id="mood5">Insomnia</button>
 			</div>
 
-<!--- Follows main index.html examples--->
-<!--- Get Moods to display songs --->
-<!--- Anxiety Group --->
-			<div class="song01-hide" id="anxiety-btns" id='hidden'>
+<!---Class songs (20 songs total : four songs per mood) displays after a mood is selected -->
+      <div class='song-container' id='songs'> <!-- start songs container -->
 
-				<button id="song1">Breathin</button>
-				<button id="song2">Hello</button>
-				<button id="song3">Overkill</button>
-				<button id="song4">Crawling</button>
+			<div class="mood1-songs-hide-container" id='mood-1-songs'>
+				<button class="song" data-songnum=0>anxietySong1</button>
+				<button class="song" data-songnum=1>anxietySong2</button>
+				<button class="song" data-songnum=2>anxietySong3</button>
+				<button class="song" data-songnum=3>anxietySong4</button>
 
+				<div id="show-song1">
+				</div>
 			</div>
+
+			<!--- Song List for Mood2--->
+			<div class="mood2-songs-hide-container" id='mood-2-songs'>
+				<button class="song" data-songnum=0>bipolarSong1</button>
+				<button class="song" data-songnum=1>bipolarSong2</button>
+				<button class="song" data-songnum=2>bipolarSong3</button>
+				<button class="song" data-songnum=3>bipolarSong4</button>
+			</div>
+
+			<!--- Song List for Mood3--->
+			<div class="mood3-songs-hide-container" id='mood-3-songs'>
+				<button class="song" data-songnum=0>depressionSong1</button>
+				<button class="song" data-songnum=1>depressionSong2</button>
+				<button class="song" data-songnum=2>depressionSong3</button>
+				<button class="song" data-songnum=3>depressionSong4</button>
+			</div>
+
+			<!--- Song List for Mood4--->
+			<div class="mood4-songs-hide-container" id='mood-4-songs'>
+				<button class="song" data-songnum=0>ocdSong1</button>
+				<button class="song" data-songnum=1>ocdSong2</button>
+				<button class="song" data-songnum=2>ocdSong3</button>
+				<button class="song" data-songnum=3>ocdSong4</button>
+			</div>
+
+			<!--- Song List for Mood5--->
+			<div class="mood5-songs-hide-container" id='mood-5-songs'>
+				<button class="song" data-songnum=0>insomniaSong1</button>
+				<button class="song" data-songnum=1>insomniaSong2</button>
+				<button class="song" data-songnum=2>insomniaSong3</button>
+				<button class="song" data-songnum=3>insomniaSong4</button>
+			</div>
+
+
+
+      </div> <!-- end songs container -->
+
+
+			<!-- Have each set of songs display their own facts. Currently Anxiety facts shows up for the other songs in the other moods as well -->
+			<!-- Add a way to have the user be able to go back to the mood options without refreshing the page -->
+
+
+
+</html>
