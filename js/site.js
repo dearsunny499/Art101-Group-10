@@ -217,6 +217,7 @@ $(".song").click(function(){
     <div class="desc">${songData.description03}</div>
 
     <img class="image" src='img/${songData.image}'>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EFm15MFG2FKNZ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 </body>
 </html>
@@ -345,6 +346,7 @@ $(".song").click(function(){
     <div class="desc">${songData.description03}</div>
 
     <img class="image" src='img/${songData.image}'>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EFm15MFG2FKNZ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 </body>
 </html>
