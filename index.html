@@ -8,52 +8,44 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
 	<script src="js/site.js" defer></script>
+	<meta charset="utf-8">
 </head>
-<body>
+	<body>
+		
+		<div id="first-layer">
+			<!--- Title and Group Name--->
+			<div class="dropdown" id="about-cloud-div">
+				<div class="dropdown-content">
+			        <h3>About US</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				
+				<div class="deopbtn">
+					<h3 id="about-button-h3">Dream Flow</h3>
+					<img id="about-cloud" src="img/co.png">
+				</div>
+			</div>
+			
+			<!---Adding mood button onto cloud mood cloud image:--->
+			<div class="container">
+				<img src="img/mood_cloud.png" id="first-layer">
+				<!---Main Button: Displays Moods:--->
+				<div class="start" id="main-btn">What Mood Are You In?</div>
+			</div>
+		</div>
 
-		<!--- Title and Group Name--->
-		<div id="header">
-			<h1> DreamFlow</h1>
-	  	<h2>Art101 Group 10</h2>
+		
 
+	
+		<!--- Expereiment First Page Moods Buttons --->
+		<div class="mood-hide" id='hidden'>
+			<button id="mood1">Anxiety</button>
+			<button id="mood2">Bipolar</button>
+			<button id="mood3">Depression</button>
+			<button id="mood4">OCD</button>
+			<button id="mood5">Insomnia</button>
 		</div>
 
 
-	<!---Adding mood button onto cloud mood cloud image:--->
-		<div class="container">
-	  	<img src="img/mood_cloud.png">
-			<!---Main Button: Displays Moods:--->
-	  	<div class="start" id="main-btn">What Mood Are You In?</div>
-		</div>
-
-
-
-	<!---This class displays the moods after "main-butn" is selected --->
-			<!---<div class="mood hide container">
-				<img src="img/cloudOptions_button.png">
-
-			</div> --->
-
-<!--- Expereiment First Page Moods Buttons --->
-			<div class="mood-hide" id='hidden'>
-
-							<button id="mood1">Anxiety</button>
-							<button id="mood2">Bipolar</button>
-							<button id="mood3">Depression</button>
-							<button id="mood4">OCD</button>
-							<button id="mood5">Insomnia</button>
-						</div>
-
-
-	<!---Cloud Images For the Top of the Page: THEY WORK more UI--->
-
-	<!---<div class="clouds">
-		<img  class="topCloud topCloud1 load" data-src="img/cloud-1.png" src="img/cloud-1.png">
-		<img  class="mediumCloud topCloud2 load" data-src="img/cloud-2.png" src="img/cloud-2.png">
-		<img  class="mediumCloud topCloud3 load" data-src="img/cloud-3.png" src="img/cloud-3.png">
-		<img class="mediumCloud topCloud4 load" data-src="img/cloud_bunch.png" src="img/cloud_bunch.png">
-	</div> --->
-
-
-</body>
+	</body>
 </html>

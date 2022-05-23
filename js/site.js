@@ -7,7 +7,8 @@ $('#hidden').hide();
 // updates htlm visability for songs being selected
 function displayMoods() {
   $("#hidden").show();
-  //$(".mood").show();
+  // hide previous content
+  $("#first-layer").hide();
 }
 
 //on main-btn click, all displayMoods()
