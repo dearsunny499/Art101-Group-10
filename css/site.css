@@ -161,7 +161,19 @@ html{
   background-color: azure;
 }
 
+h1, h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 50px;
+  text-align: center;
 
+}
+
+#main-btn{
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+
+}
 #main-btn:hover{
   background-color: AliceBlue;
 }
