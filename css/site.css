@@ -1,0 +1,221 @@
+/*css style for full page*/
+
+html{
+  line-height: 1.2;
+  color: #000000;
+  background-color: #98aede;
+}
+
+/*css style for title and headers*/
+h1, h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 100px;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+/*container for buttons and images*/
+.container {
+  position: relative;
+  width: auto;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+  background-position: 80px 0px 70px 10px
+}
+
+/* Styles the button within class start and place it in the middle of the container/image */
+.container .start {
+  position: absolute;
+  top: 60%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: #FFF5EE;
+  font-size: 70px;
+  font-family: 'Brush Script MT', cursive;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*hover effect for button "Main BUTTON" within the image*/
+.container .start:hover {
+  background-color: #8e8eb8;
+}
+
+
+
+/*Animated clouds*/
+
+.clouds{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 0;
+}
+
+
+/*controls the cloud animation sequence*/ /*Allows the cloud to move in a steady pace*/
+@keyframes clouds {
+
+  0%{
+    transform: translate(100%);
+  }
+
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+/*Animation speed and controls for cloud-1*/
+.topCloud{
+  position: absolute;
+  top: 10%;
+  right: 0;
+  will-change: transform;
+  transform: translateX(100%);
+}
+
+
+.topCloud1 {
+  max-width: 240px;
+  animation: clouds 15s infinite linear;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: clouds;
+}
+
+/*Animation speed and controls for cloud-2*/
+.mediumCloud{
+  position: absolute;
+  right: 0;
+  will-change: transform;
+  transform: translateX(100%);
+}
+
+.topCloud2 {
+  max-width: 270px;
+  top: 26%;
+  animation: clouds 15s 10s infinite linear;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: clouds;
+}
+
+/*Animation speed and controls for cloud-3*/
+.topCloud3 {
+  max-width: 170px;
+  top: 40%;
+  animation: clouds 14.5s 5.5s infinite linear;
+    animation-duration: 14.5s;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: clouds;
+}
+
+.topCloud4 {
+  max-width: 370px;
+  top: 60%;
+  animation: clouds 13.5s 5.5s infinite linear;
+    animation-duration: 15.5s;
+    animation-timing-function: linear;
+    animation-delay: 5.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: clouds;
+}
+
+
+
+#mood1{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+
+}
+
+
+#mood2{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+
+#mood3{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+#mood4{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
+
+#mood5{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
