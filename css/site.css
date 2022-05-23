@@ -168,6 +168,12 @@ h1, h2{
 
 }
 
+h3, h4{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 45px;
+  text-align: left;
+}
+
 #main-btn{
   text-align: center;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -177,6 +183,7 @@ h1, h2{
 #main-btn:hover{
   background-color: AliceBlue;
 }
+
 
 #mood1{
   background-position: center top;
@@ -240,3 +247,84 @@ h1, h2{
   height: 190px;
   text-align: center;
 }
+
+
+
+/* Dropdown Button */
+/*Yanyaos Drop DOWN Button*/
+/*.dropbtn {
+  //background-color: #04AA6D;
+  //color: white;
+  //padding: 16px;
+  //font-size: 16px;
+  //border: none;
+  z-index: "2";
+  position: relative;
+  width: auto;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/*.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+/*.dropdown-content {
+  display: none;
+  border-radius: 25px;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px 20px 10px 20px;
+}
+
+/* Links inside the dropdown */
+/*.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #ddd;}
+
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {display: block;}
+
+
+#about-cloud {
+  width: 700px;
+}
+
+#about-button-h3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: #FFF5EE;
+  font-size: 50px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#about-cloud-div {
+  position: absolute;
+  z-index: 2;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {background-color: #8e8eb8;}*/
