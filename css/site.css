@@ -1,41 +1,22 @@
-/*css style for full page*/
-
-html{
-  line-height: 1.2;
-  color: #000000;
-  background-color: #98aede;
-}
-
-/*css style for title and headers*/
-h1, h2{
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 100px;
-  text-align: center;
-
-}
-
-h2{
-  font-size: 50px;
-}
-
+/*
 .hide {
   display: none;
 }
 
-/*container for buttons and images*/
+//container for buttons and images
 .container {
   position: relative;
   width: auto;
 }
 
-/* Make the image responsive */
+// Make the image responsive
 .container img {
   width: 100%;
   height: auto;
   background-position: 80px 0px 70px 10px
 }
 
-/* Styles the button within class start and place it in the middle of the container/image */
+// Styles the button within class start and place it in the middle of the container/image
 .container .start {
   position: absolute;
   top: 60%;
@@ -51,14 +32,14 @@ h2{
   cursor: pointer;
   border-radius: 5px;
 }
-/*hover effect for button "Main BUTTON" within the image*/
+//hover effect for button "Main BUTTON" within the image
 .container .start:hover {
   background-color: #8e8eb8;
 }
 
 
 
-/*Animated clouds*/
+//Animated clouds
 
 .clouds{
   width: 100%;
@@ -69,7 +50,7 @@ h2{
 }
 
 
-/*controls the cloud animation sequence*/ /*Allows the cloud to move in a steady pace*/
+//controls the cloud animation sequence*/ /*Allows the cloud to move in a steady pace
 @keyframes clouds {
 
   0%{
@@ -81,7 +62,7 @@ h2{
   }
 }
 
-/*Animation speed and controls for cloud-1*/
+//Animation speed and controls for cloud-1
 .topCloud{
   position: absolute;
   top: 10%;
@@ -104,7 +85,7 @@ h2{
     animation-name: clouds;
 }
 
-/*Animation speed and controls for cloud-2*/
+//Animation speed and controls for cloud-2
 .mediumCloud{
   position: absolute;
   right: 0;
@@ -126,7 +107,7 @@ h2{
     animation-name: clouds;
 }
 
-/*Animation speed and controls for cloud-3*/
+//Animation speed and controls for cloud-3
 .topCloud3 {
   max-width: 170px;
   top: 40%;
@@ -154,68 +135,48 @@ h2{
     animation-play-state: running;
     animation-name: clouds;
 }
+*/
 
 
+html{
+  background-color: azure;
+}
+
+
+#main-btn:hover{
+  background-color: AliceBlue;
+}
+
+
+#mood1, #mood2, #mood3, #mood4, #mood5{
+  background-position: center top;
+  background-image:url("../img/co.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  width: 290px;
+  height: 190px;
+  text-align: center;
+}
 
 #mood1{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
-
+  float: left;
+  margin: -30px 5px 0px -30px;
 }
 
-
-#mood2{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
-}
-
+ #mood2{
+   margin: -30px 5px 0px -90px;
+ }
 
 #mood3{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
+   margin: -30px -10px 0px -90px;
 }
 
 #mood4{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
+   margin: -30px -10px 0px -90px;
 }
 
 #mood5{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
+   margin: -30px -10px 0px -90px;
 }
