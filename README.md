@@ -5,4 +5,4 @@
 Research doc, Spotify playlist and embed, UI optimization, pop-up "about us"
 
 ### Makkenzie:
-Research Doc, Website Programming, Main information implementation
+Research Doc, Website Programming, Main Information Implementation
