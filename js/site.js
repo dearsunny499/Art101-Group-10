@@ -13,6 +13,7 @@ $('#mood-5-songs').hide();
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
+  $("#first-layer").hide();
 }
 // on main-btn button click, call displayMoods()
 $("#main-btn").click(displayMoods);
@@ -34,17 +35,22 @@ $("button").click(function(e){
 
 
 function displaySongs() {
-   alert(idClicked);
+   //alert(idClicked);
    if(idClicked==='mood1'){
       $("#mood-1-songs").show();
+      $("#second-layer").hide();
    }else if (idClicked==='mood2') {
       $("#mood-2-songs").show();
+      $("#second-layer").hide();
    }else if (idClicked==='mood3') {
       $("#mood-3-songs").show();
+      $("#second-layer").hide();
    }else if (idClicked==='mood4') {
       $("#mood-4-songs").show();
+      $("#second-layer").hide();
    }else if (idClicked==='mood5') {
       $("#mood-5-songs").show();
+      $("#second-layer").hide();
    }
    // consider a refactor: call proper song list based on mood idClicked
       // pull number out of string into a var
@@ -217,8 +223,6 @@ $(".song").click(function(){
     <div class="desc">${songData.description03}</div>
 
     <img class="image" src='img/${songData.image}'>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EFm15MFG2FKNZ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
 </body>
 </html>
 
@@ -346,7 +350,6 @@ $(".song").click(function(){
     <div class="desc">${songData.description03}</div>
 
     <img class="image" src='img/${songData.image}'>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EFm15MFG2FKNZ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 </body>
 </html>
