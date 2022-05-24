@@ -157,6 +157,11 @@ h2{
 
 */
 
+.image {
+  float: right;
+
+}
+
 html{
   background-color: azure;
 }

@@ -99,7 +99,7 @@ var songTable1 = [
     " put listeners within themselves to not only understand their anxieties but "+
     " also relate.</li></ol> "),
 
-    image: "song1.jpg"
+    image: "breathin.png"
   },
 	{
   	songTitle: "Help ",
@@ -203,7 +203,7 @@ $(".song").click(function(){
 
 
   songHTML = `
-
+    <img class="image" src='img/${songData.image}'>
   	<h3 class=title>${songData.songTitle}</h3>
 		<h3 class=title>${songData.author}</h3>
 
@@ -216,7 +216,7 @@ $(".song").click(function(){
     <h4 class=title04>${songData.title04}</h4>
     <div class="desc">${songData.description03}</div>
 
-    <img class="image" src='img/${songData.image}'>
+    
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EFm15MFG2FKNZ?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 </body>

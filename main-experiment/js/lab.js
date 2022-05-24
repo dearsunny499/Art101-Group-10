@@ -105,7 +105,7 @@ var songTable1 = [
     " put listeners within themselves to not only understand their anxieties but "+
     " also relate.</li></ol> "),
 
-    image: "song1.jpg"
+    cover: "breathin.png"
   },
 	{
   	songTitle: "Help ",
@@ -134,7 +134,7 @@ var songTable1 = [
 		" vulnerable place.</li><br> <li>As it talks about all anxieties that come with "+
 		" fame and also hiding your true feelings. </li></ol>"),
 
-    image: "song2.jpg"
+    cover: "help.png"
   },
 	{
 		songTitle: "Overkill " ,
@@ -168,7 +168,7 @@ var songTable1 = [
 		" in control of a situation any more, there's other people involved, it gets bigger "+
 		" and bigger with much more stress.</li></ol>"),
 
-    image: "song3.jpg"
+    cover: "overkill.png"
   },
   {
 		songTitle: "Crawling " ,
@@ -195,7 +195,7 @@ var songTable1 = [
     " crawling under the skin arise.</li><br><li>The song applies to anyone feeling "+
     " uncomfortable and helpless.</li></ol>"),
 
-    image: "song4.jpg"
+    cover: "crawling.png"
   }
 
 ]
@@ -209,6 +209,7 @@ $(".song").click(function(){
 
 
   songHTML = `
+    <img class="cover" src='img/${songData.cover}'>
   	<h3 class=title>${songData.songTitle}</h3>
 		<h3 class=title>${songData.author}</h3>
     <h4 class=title02>${songData.title02}</h4>
@@ -217,7 +218,7 @@ $(".song").click(function(){
     <div class="desc">${songData.description02}</div>
     <h4 class=title04>${songData.title04}</h4>
     <div class="desc">${songData.description03}</div>
-    <img class="image" src='img/${songData.image}'>
+
 </body>
 </html>
     `
