@@ -3,3 +3,6 @@
 
 ### Yanyao:
 Research doc, Spotify playlist and embed, UI optimization, pop-up "about us"
+
+##Makkenzie:
+Research Doc, Website Programming, Facts implementation
