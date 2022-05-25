@@ -210,12 +210,16 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
+
   	<h3 class=title>${songData.songTitle}</h3>
 		<h3 class=title>${songData.author}</h3>
+
     <h4 class=title02>${songData.title02}</h4>
     <div class="desc">${songData.description}</div>
+
     <h4 class=title03>${songData.title03}</h4>
     <div class="desc">${songData.description02}</div>
+
     <h4 class=title04>${songData.title04}</h4>
     <div class="desc">${songData.description03}</div>
 
@@ -232,35 +236,47 @@ $(".song").click(function(){
 var songTable2 = [
 	{
     //break up the song title and artist name
-  	songTitle: " " ,
-		author: " ",
+  	songTitle: "Shake It Out" ,
+		author: " Florence The Machine",
     title02: "<u>Artist Facts</u>: ",
-    //need to make these bullet point notes
-    description: ("<ol><li> "+
-    "  " +
-    "  " +
-    "  " +
-    "  " +
-    "  " +
-    "  "),
+
+    description: ("<ol><li><b>Florence and the Machine</b> are an English indie rock band "+
+    " that formed in London in 2007, consisting of <i>vocalist</i> <b>Florence Welch</b>, "+
+    " <i>keyboardist</i> <b>Isabella Summers</b>,<i> guitarist</i> <b>Rob Ackroyd</b>, <i>harpist</i> <b>Tom Monger</b>, "+
+    " and a collaboration of other musicians.</li><br><li>The band's music is renowned "+
+    " for its dramatic, eccentric production and Welch's powerful vocals.</li><br><li>"+
+    " <b>Florence and the Machine's</b> style has been described as <b>\"dark, robust and romantic\"</b></li></ol>"),
 
     title03: "<u>Song Facts</u>:",
     //Bold Bipolar
-    description02: ("<ol><li> "+
-    "  "+
-    "  "+
-    "  "+
-    "  "+
-    "  "),
+    description02: ("<ol><li> The song is within the <b>Ceremonials</b> album</li><br><li> "+
+     " <dl><dt><b>Released in:</b></dt><dd><b>2011</b></dd></ol></li><br><ul><li><dt><b>Written by:</b></dt><dd><b>Florence "+
+     " Welch and Paul Epworth</ul></b></dd></dl></li><br><ol><li>Welch stated the song is about, "+
+     "<i>\"wanting to just shake something out, shake out these regrets, shake out "+
+     " these things that haunt you. It was one of those songs that came in<br>about "+
+     " half an hour and when you've got a hangover, it is almost like a hangover cure. "+
+     " You're like, thank you! I don't want everyone to think that I always write "+
+     " songs with a hangover!<br> Cause I don't, I really don't. But with this one I "+
+     " have to say there was a bit of one lurking in my mind as I wrote it. It was "+
+     " like I was trying to write a hangover cure.\”</i> -Welch</li><br><li> "+
+     " She then echoes her determination to fight and shake them off in order to get "+
+     " a grip on her life and enjoy every moment from henceforth.</li></ol>"),
+
+
 
     title04: "<u>Mental Facts</u>:",
-    description03: ("<ol><li> "+
-    "  "+
-    "  "+
-    "  "+
-    " </li></ol> "),
+    description03: ("<ol><li> When listening to the song listeners may not first "+
+    " realize what this song is about.</li><br><li> Some say it is about just shaking "+
+    " off the day and that is why it makes them happy after a long one.</li><br><li>"+
+    " Yet there is another side to the song.</li><br><li> There are lyrics that say, "+
+    " <b><i>\“with the devil on your back <b>JUST SHAKE IT OFF!</b>\”</b></i>. This was taken more "+
+    " seriously.</li><br><li>For those who deal with <b>bipolar syndrome</b> one minute "+
+    " you may feel like yourself and within the next you can be, as some say, "+
+    " <b>\“another version\”</b>. Good or bad.</li><br><li>This song can put "+
+    " listeners in a mental state of calm but also realization of the way bipolar "+
+    " syndrome can be so chaotic and all you want to do is <b>SHAKE IT OFF!</b></li></ol> "),
 
-    image: "song1.jpg"
+    cover: "song1.jpg"
   },
 	{
   	songTitle: " ",
@@ -283,7 +299,7 @@ var songTable2 = [
 		" "+
 		" </li></ol>"),
 
-    image: "song2.jpg"
+    cover: "song2.jpg"
   },
 	{
 		songTitle: " " ,
@@ -305,16 +321,29 @@ var songTable2 = [
 		" "+
 		" </li></ol>"),
 
-    image: "song3.jpg"
+    cover: "song3.jpg"
   },
   {
-		songTitle: " " ,
+    songTitle: " " ,
 		author: " Song by ",
 
 		title02: "<u>Artist Facts</u>: ",
     description: ("<ol><li> "+
+		"  "+
+		" "+
 		" </li></ol>"),
-    image: "song4.jpg"
+
+		title03: "<u>Song Facts</u>:",
+		description02: ("<ol><li> "+
+
+		" </li></ol>"),
+
+		title04: "<u>Mental Facts</u>:",
+		description03: ("<ol><li>  "+
+		" "+
+		" </li></ol>"),
+
+    cover: "song4.jpg"
   }
 
 ]
@@ -330,15 +359,20 @@ $(".song").click(function(){
 
 
   songHTML = `
+    <img class="cover" src='img/${songData.cover}'>
+
   	<h3 class=title>${songData.songTitle}</h3>
 		<h3 class=title>${songData.author}</h3>
+
     <h3 class=title02>${songData.title02}</h3>
     <div class="desc">${songData.description}</div>
+
     <h3 class=title03>${songData.title03}</h3>
     <div class="desc">${songData.description02}</div>
+
     <h3 class=title04>${songData.title04}</h3>
     <div class="desc">${songData.description03}</div>
-    <img class="image" src='img/${songData.image}'>
+
 </body>
 </html>
     `
