@@ -70,7 +70,7 @@ var songTable1 = [
 	{
     //break up the song title and artist name
   	songTitle: "Breathin " ,
-		author: " Song by Ariana Grande",
+		author: " Song by: Ariana Grande",
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
     description: ("<ol><li><b>Ariana Grande</b> is perhaps the quintessential pop "+
@@ -109,7 +109,7 @@ var songTable1 = [
   },
 	{
   	songTitle: "Help ",
-		author: "Song by The Beatles",
+		author: "Song by: The Beatles",
 
 		title02: "<u>Artist Facts</u>: ",
     description: ("<ol><li> <b>The Beatles</b> were an English rock band, formed in Liverpool "+
@@ -138,7 +138,7 @@ var songTable1 = [
   },
 	{
 		songTitle: "Overkill " ,
-		author: " Song by Colin Hay",
+		author: " Song by: Colin Hay",
 
 		title02: "<u>Artist Facts</u>: ",
     description: ("<ol><li><b>Colin James Hay</b> is a Scottish-born Australian-American "+
@@ -172,7 +172,7 @@ var songTable1 = [
   },
   {
 		songTitle: "Crawling " ,
-		author: " Song by Linkin Park",
+		author: " Song by: Linkin Park",
 
 		title02: "<u>Artist Facts</u>: ",
     description: ("<ol><li><b>Linkin Park</b> is an American rock band from Agoura Hills, California.</li><br><li>"+
@@ -279,7 +279,7 @@ var songTable2 = [
     " listeners in a mental state of calm but also realization of the way bipolar "+
     " syndrome can be so chaotic and all you want to do is <b>SHAKE IT OFF!</b></li></ol> "),
 
-    cover: "song1.jpg"
+    cover: "shakeItOut.png"
   },
 	{
   	songTitle: "Secrets ",
@@ -314,7 +314,7 @@ var songTable2 = [
     " disorder.</b></li><br><li>The song also has several humorous aspects, adding on "+
     " puns and a few jokes to lighten up the mood. </li></ol>"),
 
-    cover: "song2.jpg"
+    cover: "secrets.png"
   },
 	{
 		songTitle: "I Don't Feel Like Dancin' " ,
@@ -346,7 +346,7 @@ var songTable2 = [
     " song, as much as we wanted it to be\"</b></i> in the <b><u>Daily Telegraph.</b></u></li><br><li>"+
     " The song was created as a response to <u><b>Bee Gees’</b></u> <b><i>“You Should Be Dancing”</b></i></li></ol>"),
 
-    cover: "song3.jpg"
+    cover: "dancin.png"
   },
   {
     songTitle: "Raging Fire" ,
@@ -380,7 +380,7 @@ var songTable2 = [
     " </li><br><li>Additionally, he believes that passion and hope is always worth fighting for "+
     " and believing in, which rings even more true when you’re in a dark place</li></ol>"),
 
-    cover: "song4.jpg"
+    cover: "ragingFire.png"
   }
 
 ]
@@ -414,5 +414,150 @@ $(".song").click(function(){
 </html>
     `
 	$("#show-song2").html(songHTML);
+
+});
+
+
+
+//Depression SongTable
+var songTable3 = [
+	{
+    //break up the song title and artist name
+  	songTitle: "Adam's Song" ,
+		author: " Song by: Blink-182",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> Their initial band name was <b>Blink</b>, but they were "+
+    " threatened with a lawsuit by an Irish band with the same name. "+
+    " They later changed it to <b>Blink-182</b>.</li><br><li> "+
+    " There is a popular theory that <b>182</b> is derived from the amount of times "+
+    " the f-word was said in <b>Scarface</b>. </li><br><li>"+
+    " After being expelled from high school for drinking at a basketball game, "+
+    " <b>DeLonge</b> met <b>Scott Raynor</b> and subsequently <b>Mark Hoppus</b> "+
+    " at the new school he was forced to attend.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> There was a point when <b>Blink-182</b> did not perform "+
+    " <b>\"<u>Adam's Song</u>\"</b>in concert.</li><br><li> <b>Adam Goldstein</b>, also "+
+    " known as <b>DJ AM</b>, was a musician friend of theirs who later died of an "+
+    " overdose<br> in early 2009, and Hoppus says he couldn't bring himself to sing it.</li><br><li>"+
+    " <b>Hoppus</b> states that he got inspired by <b><i>\"reading a magazine where some "+
+    " teenage kid had killed himself and left a letter for his family.\"</b></i></li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> <b>“The world is a place of infinite possibilities, "+
+    " but can possess infinitely little possibilities if you aren’t willing to act.<br> "+
+    " Adam had just finished an event which should have made him very happy, but "+
+    " due to his inner turmoil, he got very little joy from it.”</b>- <u>Genius</u></li><br><li>"+
+    " The lyric <b><i>\“Tomorrow holds such better days\”</b></i> is a message of "+
+    " hope for anyone listening that things will get better and to just make it "+
+    " one more day.</li><br><li>There is a transition from <b>“we”</b> to <b>“I”</b> "+
+    " in the song, which deals with Mark’s loneliness of being on tour.</li></ol> "),
+
+    cover: "song1.png"
+  },
+	{
+  	songTitle: "Hurt",
+		author: "Song by: Johnny Cash",
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> <b>Johnny Cash</b> was also a writer and novelist that "+
+    " had published several books, such as <b><u>Man in White</u><b/>.</li><br><li>"+
+    " His brother <b>Jack</b> had passed away when Cash was twelve, who later became "+
+    " more introspective afterwards<br> and began to spend more time alone, "+
+    " writing stories and sketches.</li><br><li>Despite his obvious interest in "+
+    " music and talent for music during his childhood, Cash wouldn’t get a guitar<br> "+
+    " and start seriously writing songs until he joined the Air Force.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> <b><i>Hurt</i></b> is <b>Johnny Cash’s</b> cover of "+
+    " <b><u>Nine Inch Nails' Hurt</u></b></li><br><li>The original song was released "+
+    " in 1995, and Cash sang a cover of the song in 2002.</li><br><li>The music "+
+    " video for <b>Nine Inch Nails'</b> original version of <b>\"Hurt\"</b> is a "+
+    " live performance <br> that was recorded before the show in Omaha, Nebraska.</li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> <b><i>“I wrote some words and music in my bedroom "+
+    " as a way of staying sane, about a bleak and desperate place I was in, totally isolated and alone,” Reznor told Alternative Press.
+Cash was suffering from autonomic neuropathy brought on by diabetes. By the time he recorded Hurt, his health was failing.
+The song contains references to self-harm and heroin addiction. Some listeners believe the song is a suicide letter composed by the protagonist as a result of his sadness, while others believe it reflects the tough process of finding a purpose to live despite depression and agony and has little to do with The Downward Spiral's plot.
+</li></ol> "),
+
+    cover: "song2.png"
+  },
+	{
+    songTitle: " " ,
+    author: " Song by: ",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> </li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> </li></ol> "),
+    cover: "overkill.png"
+  },
+  {
+    songTitle: " " ,
+    author: " Song by: ",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> </li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> </li></ol> "),
+
+    cover: "crawling.png"
+  }
+
+]
+
+
+$(".song").click(function(){
+	var songNum = $(this).data("songnum");
+  console.log("Button Pressed: " + songNum);
+  var songData = songTable3[songNum];
+  console.log("Song data: ", songData);
+
+
+  songHTML = `
+    <img class="cover" src='img/${songData.cover}'>
+
+  	<h3 class=title>${songData.songTitle}</h3>
+		<h3 class=title>${songData.author}</h3>
+
+    <h4 class=title02>${songData.title02}</h4>
+    <div class="desc">${songData.description}</div>
+
+    <h4 class=title03>${songData.title03}</h4>
+    <div class="desc">${songData.description02}</div>
+
+    <h4 class=title04>${songData.title04}</h4>
+    <div class="desc">${songData.description03}</div>
+
+</body>
+</html>
+    `
+	$("#show-song3").html(songHTML);
 
 });
