@@ -75,7 +75,7 @@ var songTable1 = [
     //need to make these bullet point notes
     description: ("<ol><li><b>Ariana Grande</b> is perhaps the quintessential pop "+
     " star of the last half of the 2010s, capturing the era's spirit and style.</li><br> " +
-    " <li>Emerged in 2013 with the hit single <b>\"The Way\"</b>. Underscored her debt to 90s and " +
+    " <li>Emerged in 2013 with the hit single <b>\"<u>The Way</u>\"</b>. Underscored her debt to 90s and " +
     " R&B.</li><br> <li>Later incorporating hip-hop and EDM. Grande began singing and acting at " +
     " an early age, appearing in local theater productions.</li><br> " +
     " <li>Her four-octave vocal range has received public acclaim, and her personal " +
@@ -83,7 +83,7 @@ var songTable1 = [
 
     title03: "<u>Song Facts</u>:",
     //Bold ANXIETY
-    description02: ("<ol><li>Ariana Grande released her highly-anticipated album <b>Sweetener</b> "+
+    description02: ("<ol><li><b>Ariana Grande</b> released her highly-anticipated album <u><b>Sweetener</b></u> "+
     " on Friday, August 17 and while there are several songs on the project that "+
     " have struck a chord with fans, listeners couldn't help but to wonder if the "+
     " lyrics to Grande's <b>\"Breathin\"</b> are about the singer's struggle with anxiety.</li><br> "+
@@ -116,8 +116,8 @@ var songTable1 = [
 		" in 1960, that comprised <b>John Lennon</b>, <b>Paul McCartney</b>, <b>George Harrison</b>,and <b>Ringo Starr</b>. </li><br> "+
 		" <li>They are regarded as the most influential band of all time and were integral "+
 		" to the development of 1960s counterculture and popular music's recognition "+
-		" as an art form.</li> <br><li><dl><b>Active From:</b><br> <dd>- 1960<br></dl></dd></li> <dl><li><b>Genres:</b><br><dd>- Rock, Pop, Beat, and Psychedelia </dd></dl></li><br>"+
-		" <li><b>First Hit:</dt></b><br> <dd>- Love Me Do</dd> </li></ol>"),
+		" as an art form.</li> <br><li><dl><b><u>Active From:</u></b><br> <dd><b>- 1960</b><br></dl></dd></li> <dl><li><b><u>Genres:</u></b><br><dd><b>- Rock, Pop, Beat, and Psychedelia </b></dd></dl></li><br>"+
+		" <li><b><u>First Hit:</u></dt></b><br> <dd><b>- Love Me Do</dd></b> </li></ol>"),
 
 		title03: "<u>Song Facts</u>:",
     description02: ("<ol><li> Released July 19 1965</li><br> <li>Served as the title song for " +
@@ -128,7 +128,7 @@ var songTable1 = [
 		" around his emotions. </li></ol>"),
 
 		title04: "<u>Mental Facts</u>:",
-		description03: ("<ol><li>The <b>song Help</b> is really the basis of the <b>movie Help</b> itself. </li><br>"+
+		description03: ("<ol><li>The <b><i>song</i> <u>Help</u></b> is really the basis of the <b><i>movie</i> <u>Help</u></b> itself. </li><br>"+
 		" <li>The movie slyly refers to drug use and how anxiety really can lead to "+
 		" darker places if ignored.</li><br> <li>The song will place a listener in a "+
 		" vulnerable place.</li><br> <li>As it talks about all anxieties that come with "+
@@ -141,17 +141,17 @@ var songTable1 = [
 		author: " Song by Colin Hay",
 
 		title02: "<u>Artist Facts</u>: ",
-    description: ("<ol><li>Colin James Hay is a Scottish-born Australian-American "+
+    description: ("<ol><li><b>Colin James Hay</b> is a Scottish-born Australian-American "+
 		" musician, singer, songwriter, and actor.</li><br><li>He came to prominence "+
-		" as the lead vocalist of the band Men at Work and later as a solo artist.</li><br>"+
-		" <li>Hay's music has been used frequently by actor and director Zach Braff "+
+		" as the lead vocalist of the band <b>Men at Work</b> and later as a solo artist.</li><br>"+
+		" <li>Hay's music has been used frequently by actor and director <b>Zach Braff</b> "+
 		" in his work, which helped a career rebirth in the mid-2000s.</li><br><li> "+
-		" Hay has also been a member of Ringo Starr's Ringo Starr & His All-Starr Band.</li></ol>"),
+		" Hay has also been a member of <b>Ringo Starr's Ringo Starr & His All-Starr Band.</b></li></ol>"),
 
 		title03: "<u>Song Facts</u>:",
-		description02: ("<ol><li>This was the first single from Men at Work's second "+
-		" album, Cargo.</li><br><li>The band quickly went from a local Australian group "+
-		" to a worldwide success.</li><br><li>OverKill was a song about what was happening "+
+		description02: ("<ol><li>This was the first single from <b>Men at Work's</b> second "+
+		" album, <b><u>Cargo</u>.</b></li><br><li>The band quickly went from a local Australian group "+
+		" to a worldwide success.</li><br><li><b>OverKill</b> was a song about what was happening "+
 		" at the time, the experience we were going through of stepping into the unknown.</li><br><li>"+
 		" It's about having a fear about the unknown, but also knowing that what was going "+
 		" to happen was inevitable.</li><br><li> Leaving behind where you are and stepping "+
@@ -175,10 +175,10 @@ var songTable1 = [
 		author: " Song by Linkin Park",
 
 		title02: "<u>Artist Facts</u>: ",
-    description: ("<ol><li>Linkin Park is an American rock band from Agoura Hills, California.</li><br><li>"+
-		" The band's current lineup comprises vocalist/rhythm guitarist/keyboardist <b>Mike Shinoda</b>, "+
-		" lead guitarist <b>Brad Delson</b>, bassist <b>Dave Farrell</b>, DJ/turntablist <b>Joe Hahn</b> "+
-		" and drummer <b>Rob Bourdon</b>, all of whom are founding members.</li><br><li>Linkin Park "+
+    description: ("<ol><li><b>Linkin Park</b> is an American rock band from Agoura Hills, California.</li><br><li>"+
+		" The band's current lineup comprises <i>vocalist/rhythm guitarist/keyboardist</i> <b>Mike Shinoda</b>, "+
+		" <i>lead guitarist</i> <b>Brad Delson</b>, <i>bassist</i> <b>Dave Farrell</b>, <i>DJ/turntablist</i> <b>Joe Hahn</b> "+
+		" and <i>drummer</i> <b>Rob Bourdon</b>, all of whom are founding members.</li><br><li><b>Linkin Park</b> "+
 		" is among the best-selling bands of the 21st century and the world's best-selling "+
 		" music artists, having sold over 100 million records worldwide.</li></ol>"),
 
@@ -237,7 +237,7 @@ var songTable2 = [
 	{
     //break up the song title and artist name
   	songTitle: "Shake It Out" ,
-		author: " Florence The Machine",
+		author: "Song by: Florence The Machine",
     title02: "<u>Artist Facts</u>: ",
 
     description: ("<ol><li><b>Florence and the Machine</b> are an English indie rock band "+
@@ -249,16 +249,19 @@ var songTable2 = [
 
     title03: "<u>Song Facts</u>:",
     //Bold Bipolar
-    description02: ("<ol><li> The song is within the <b>Ceremonials</b> album</li><br><li> "+
-     " <dl><dt><b>Released in:</b></dt><dd><b>2011</b></dd></ol></li><br><ul><li><dt><b>Written by:</b></dt><dd><b>Florence "+
-     " Welch and Paul Epworth</ul></b></dd></dl></li><br><ol><li>Welch stated the song is about, "+
-     "<i>\"wanting to just shake something out, shake out these regrets, shake out "+
+    description02: ("<ol><li> The song is within the <b><u>Ceremonials</u></b> album</li><br><li> "+
+     " <dl><b><u>Released in:</u></b><br>"+
+     " <dd><b>- 2011</b><br></dl></dd></li> "+
+     " <li><dl><b><u>Written by:</u></b>"+
+     "<dd><b>- Florence Welch and Paul Epworth</b></dd></dl>"+
+     "<br><li>Welch stated the song is about, "+
+     "<b><i>\"wanting to just shake something out, shake out these regrets, shake out "+
      " these things that haunt you. It was one of those songs that came in<br>about "+
      " half an hour and when you've got a hangover, it is almost like a hangover cure. "+
      " You're like, thank you! I don't want everyone to think that I always write "+
      " songs with a hangover!<br> Cause I don't, I really don't. But with this one I "+
      " have to say there was a bit of one lurking in my mind as I wrote it. It was "+
-     " like I was trying to write a hangover cure.\”</i> -Welch</li><br><li> "+
+     " like I was trying to write a hangover cure.\”</i></b> -Welch</li><br><li> "+
      " She then echoes her determination to fight and shake them off in order to get "+
      " a grip on her life and enjoy every moment from henceforth.</li></ol>"),
 
@@ -269,7 +272,7 @@ var songTable2 = [
     " realize what this song is about.</li><br><li> Some say it is about just shaking "+
     " off the day and that is why it makes them happy after a long one.</li><br><li>"+
     " Yet there is another side to the song.</li><br><li> There are lyrics that say, "+
-    " <b><i>\“with the devil on your back <b>JUST SHAKE IT OFF!</b>\”</b></i>. This was taken more "+
+    " <b><i>\“with the devil on your back <b>JUST SHAKE IT OFF!</b>\”</b></i> This was taken more "+
     " seriously.</li><br><li>For those who deal with <b>bipolar syndrome</b> one minute "+
     " you may feel like yourself and within the next you can be, as some say, "+
     " <b>\“another version\”</b>. Good or bad.</li><br><li>This song can put "+
@@ -279,69 +282,103 @@ var songTable2 = [
     cover: "song1.jpg"
   },
 	{
-  	songTitle: " ",
-		author: "",
+  	songTitle: "Secrets ",
+		author: "Song By: Mary Lambert",
 
 		title02: "<u>Artist Facts</u>: ",
-    description: ("<ol><li> "+
-		" "+
-		"  </li></ol>"),
+    description: ("<ol><li>Before rising to fame in 2012, <b>Mary Lambert</b> had juggled "+
+    " several food working jobs.</li><br><li><b>Mary Lambert</b> had grown up struggling "+
+    " with her sexuality, but she later came out as lesbian in the age of 17.</li><br> "+
+    " <li> She is currently an avid supporter of the LGBTQ community, and has worked "+
+    " for the <b><u>documentary 1946</u></b> that discusses the mistranslation of the Bible "+
+    " and how it was used to promote homophobia and the silencing of LGBTQ voices.</li><br>"+
+    " <li>Lambert has been very vocal about her bipolar disorder, showing how even "+
+    " celebrities and influencers struggle with mental health issues.</li><br> "+
+    "<li>She is very outspoken when it comes to body image, and has detailed her "+
+    " struggles with her body and how hurtful body shaming can be in her blog post, "+
+    " \<i><b>“I want to talk about Body Positivity, OK?\”</b></i></li></ol>"),
+
 
 		title03: "<u>Song Facts</u>:",
-    description02: ("<ol><li>  " +
-		" "+
-		" "+
-		" "+
-		"  </li></ol>"),
+
+    description02: ("<ol><li><b> Released in Jul 31, 2014</b>"+
+    " The meaning and purpose of the song was about how Lambert \<i><b>“does not care what "+
+    " people think about her or her secrets\”</b></i> and \<b><i>“she’s just going to be <b>herself</b>.\”</b></i></li>"+
+    " <br><li>Overall, the song discusses her struggles with her sexuality, mental health, and body image.</li></ol>"),
+
 
 		title04: "<u>Mental Facts</u>:",
-		description03: ("<ol><li> "+
-		" "+
-		" </li></ol>"),
+
+		description03: ("<ol><li> The song gives hope to the fans who are struggling "+
+    " with their <b>sexuality, body image, and mental health issues such as Bipolar/BPD "+
+    " disorder.</b></li><br><li>The song also has several humorous aspects, adding on "+
+    " puns and a few jokes to lighten up the mood. </li></ol>"),
 
     cover: "song2.jpg"
   },
 	{
-		songTitle: " " ,
-		author: " Song by ",
+		songTitle: "I Don't Feel Like Dancin' " ,
+		author: " Song by: Scissor Sisters ",
 
 		title02: "<u>Artist Facts</u>: ",
-    description: ("<ol><li> "+
-		"  "+
-		" "+
-		" </li></ol>"),
+
+    description: ("<ol><li>The term \<b>“scissors\”</b> is often used as a related "+
+    " lesbian “term,” though none of the band members are lesbian.</li><br>"+
+    "<li> However, three of the individuals in the band are gay.</li><br><li> "+
+    " <b>Shears</b> has spoken out against high record shop pricing, such as "+
+    " <u><b>Transworld Entertainment.</b></u> <br>As a result, <u><b>Transworld</b></u> discontinued "+
+    " selling <b>Scissor Sisters merchandise.</b></li><br><li><b>Ana Matronic</b>, the lead "+
+    " vocalist and percussionist, claims that she is a \<b>“drag queen stuck in a woman's body\”</b></li></ol>"),
+
 
 		title03: "<u>Song Facts</u>:",
-		description02: ("<ol><li> "+
 
-		" </li></ol>"),
+		description02: ("<ol><li> <b>Released in August 2006 </b>as a single from "+
+    " their <b>album <u>Ta-Dah (2006)</u></b></li><br><li>Written by:<b> Jason Sellards, "+
+    " Scott Hoffman and Elton John (who played the piano).</b></li><br><li>"+
+    " The song also features a rhythm piano that is similar/references to "+
+    " \<b>“Decemeber, 1963 (Oh, What a Night)\” by The Four Seasons</b></li></ol>"),
 
 		title04: "<u>Mental Facts</u>:",
-		description03: ("<ol><li>  "+
-		" "+
-		" </li></ol>"),
+
+		description03: ("<ol><li> A catchy song that’s created to lighten up the mood "+
+    " and create happy vibes <b>Babydaddy</b> states that, <br><b><i>\"Our life wasn't that "+
+    " song, as much as we wanted it to be\"</b></i> in the <b><u>Daily Telegraph.</b></u></li><br><li>"+
+    " The song was created as a response to <u><b>Bee Gees’</b></u> <b><i>“You Should Be Dancing”</b></i></li></ol>"),
 
     cover: "song3.jpg"
   },
   {
-    songTitle: " " ,
-		author: " Song by ",
+    songTitle: "Raging Fire" ,
+		author: " Song by: Phillip Phillips ",
 
 		title02: "<u>Artist Facts</u>: ",
-    description: ("<ol><li> "+
-		"  "+
-		" "+
-		" </li></ol>"),
+
+    description: ("<ol><li><b>Phillip Phillips</b> is an American singer-songwriter who rose to fame "+
+    " after winning the 11th season of <b><u>American Idol</u>.</b></li><br><li>Phillips has an "+
+    " ongoing struggle with kidney stones, in which he had seven surgeries for them "+
+    " during American Idol	Season 11.</li><br><li>Phillips signed with <b><u>Simon Cowell's "+
+    " management company</u></b>, <b><u>19 Entertainment</u></b>, but ultimately "+
+    " decided that it wasn’t for him and filed a lawsuit when they wouldn’t let him leave.</li></ol>"),
 
 		title03: "<u>Song Facts</u>:",
-		description02: ("<ol><li> "+
 
-		" </li></ol>"),
+		description02: ("<ol><li><b> Phillip Phillips</b> released the lead single, "+
+    " <b>“<u>Raging Fire</u>,”</b>off his sophomore album, <b><u>Behind The Light</u></b>, "+
+    " on March 3rd, 2014.</li><br><li><b>“Raging Fire”</b> fused a new heavier, "+
+    " rockier sound with the warm and anthemic qualities of Phillip’s two previous "+
+    " massive hits, <b>“<u>Home</u>”</b> and <b>“<u>Gone Gone Gone.</u>”</b></li><br><li> "+
+    " A song composed of two contrasts: string instruments and rocking drums</li></ol>"),
 
 		title04: "<u>Mental Facts</u>:",
-		description03: ("<ol><li>  "+
-		" "+
-		" </li></ol>"),
+
+		description03: ("<ol><li> Phillips states that the song is <b><i>“about love, "+
+    " and about wanting to feel the same way you felt the first time you kissed <br>"+
+    " the person you love. It is indeed a beautiful song about love, particularly<br>"+
+    " long-lasting love, and about keeping passion alive in your heart in the name<br>"+
+    " of all your shared hopes, pains and memories.”</b></i> (from this website <a> http://www.phillphill.com/tag/raging-fire/</a>) "+
+    " </li><br><li>Additionally, he believes that passion and hope is always worth fighting for "+
+    " and believing in, which rings even more true when you’re in a dark place</li></ol>"),
 
     cover: "song4.jpg"
   }
