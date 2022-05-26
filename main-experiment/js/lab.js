@@ -105,7 +105,8 @@ var songTable1 = [
     " put listeners within themselves to not only understand their anxieties but "+
     " also relate.</li></ol> "),
 
-    cover: "breathin.png"
+    cover: "breathin.png",
+
   },
 	{
   	songTitle: "Help ",
@@ -134,7 +135,8 @@ var songTable1 = [
 		" vulnerable place.</li><br> <li>As it talks about all anxieties that come with "+
 		" fame and also hiding your true feelings. </li></ol>"),
 
-    cover: "help.png"
+    cover: "help.png",
+
   },
 	{
 		songTitle: "Overkill " ,
@@ -168,7 +170,8 @@ var songTable1 = [
 		" in control of a situation any more, there's other people involved, it gets bigger "+
 		" and bigger with much more stress.</li></ol>"),
 
-    cover: "overkill.png"
+    cover: "overkill.png",
+
   },
   {
 		songTitle: "Crawling " ,
@@ -195,7 +198,8 @@ var songTable1 = [
     " crawling under the skin arise.</li><br><li>The song applies to anyone feeling "+
     " uncomfortable and helpless.</li></ol>"),
 
-    cover: "crawling.png"
+    cover: "crawling.png",
+
   }
 
 ]
@@ -210,6 +214,7 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
+
 
   	<h3 class=title>${songData.songTitle}</h3>
 		<h3 class=title>${songData.author}</h3>
@@ -237,7 +242,7 @@ var songTable2 = [
 	{
     //break up the song title and artist name
   	songTitle: "Shake It Out" ,
-		author: "Song by: Florence The Machine",
+		author: "Song by: Florence + The Machine",
     title02: "<u>Artist Facts</u>: ",
 
     description: ("<ol><li><b>Florence and the Machine</b> are an English indie rock band "+
@@ -467,7 +472,7 @@ var songTable3 = [
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
     description: ("<ol><li> <b>Johnny Cash</b> was also a writer and novelist that "+
-    " had published several books, such as <b><u>Man in White</u><b/>.</li><br><li>"+
+    " had published several books, such as <b><u>Man in White</u></b>.</li><br><li>"+
     " His brother <b>Jack</b> had passed away when Cash was twelve, who later became "+
     " more introspective afterwards<br> and began to spend more time alone, "+
     " writing stories and sketches.</li><br><li>Despite his obvious interest in "+
@@ -484,40 +489,64 @@ var songTable3 = [
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> <b><i>“I wrote some words and music in my bedroom "+
-    " as a way of staying sane, about a bleak and desperate place I was in, totally isolated and alone,” Reznor told Alternative Press.
-Cash was suffering from autonomic neuropathy brought on by diabetes. By the time he recorded Hurt, his health was failing.
-The song contains references to self-harm and heroin addiction. Some listeners believe the song is a suicide letter composed by the protagonist as a result of his sadness, while others believe it reflects the tough process of finding a purpose to live despite depression and agony and has little to do with The Downward Spiral's plot.
-</li></ol> "),
+    description03: ("<ol><li> <b><i>\“I wrote some words and music in my bedroom "+
+    " as a way of staying sane, about a bleak and desperate place I was in, totally "+
+    " isolated and alone,\”</b></i><b> Reznor </b>told <b><u>Alternative Press</u></b>.</li><br><li>"+
+    " Cash was suffering from autonomic neuropathy brought on by diabetes. By the time "+
+    " he recorded Hurt, his health was failing.</li><br><li>The song contains references "+
+    " to self-harm and heroin addiction.</li><br><li> Some listeners believe the song "+
+    " is a suicide letter composed by the protagonist as a result of his sadness, "+
+    " while others believe it reflects the tough process of finding a purpose to live <br>"+
+    " despite depression and agony and has little to do with The Downward Spiral's plot.</li></ol> "),
 
     cover: "song2.png"
   },
 	{
-    songTitle: " " ,
-    author: " Song by: ",
+    songTitle: "Eyes On Fire" ,
+    author: " Song by: Blue Foundation",
 
 
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li> </li></ol> "),
+    description: ("<ol><li> <b>Blue Foundation</b> is a Danish band that is famously "+
+    " known for being featured in films and TV shows such as <b><u>Twilight</u></b> and the "+
+    " <b><u>Vampire Diaries</u></b>.</li><br><li><b>Tobias Wilner</b> founded the group "+
+    " in 2000 recruiting a rotating cast of traditional musicians throughout the band's "+
+    " history to inspire creativity.</li><br><li>Specializes in the <b>Dance/Electronic genre</b></li></ol> "),
 
     title03: "<u>Song Facts</u>:",
 
-    description02: ("<ol><li> </li></ol> "),
+    description02: ("<ol><li> <b>Eyes On Fire</b> was released during 2016, "+
+    " but first appeared in the <b>Twilight movie on September 24, 2007</b></li><br><li>"+
+    " Premiered in the first Twilight movie soundtrack in 2008.</li><br><li>"+
+    " Produced by <b>Tobias Wilner</b> & <b>Bo Rande</b></li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> </li></ol> "),
-    cover: "overkill.png"
+    description03: ("<ol><li> The lyrics <b>\<i>“I'm taking it slow / Feeding my flame / "+
+    " Shuffling the cards of your game</i>\”</b> implies how all of your pains "+
+    " and sorrows have gone away during substance use.</li><br><li> With more excessive "+
+    " use of these substances comes a higher tolerance, and you’re more likely "+
+    " to continue to increase the dosage and slowly become addicted, <b><i>“shuffling”</i></b>"+
+    " your feelings on the important things in your life.</li><br><li>"+
+    " <b><i>\“The eyes are commonly referred to as the window to the soul, and as  "+
+    " the song is sung as personified drug, the drug has ‘fire in its eyes.’\”</b></i></li></ol> "),
+
+    cover: "song3.png"
   },
   {
-    songTitle: " " ,
-    author: " Song by: ",
+    songTitle: "Breaking Down " ,
+    author: " Song by: Florence + The Machine",
 
 
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li> </li></ol> "),
+    description: ("<ol><li><b>Florence and the Machine</b> are an English indie rock band "+
+    " that formed in London in 2007, consisting of <i>vocalist</i> <b>Florence Welch</b>, "+
+    " <i>keyboardist</i> <b>Isabella Summers</b>,<i> guitarist</i> <b>Rob Ackroyd</b>, <i>harpist</i> <b>Tom Monger</b>, "+
+    " and a collaboration of other musicians.</li><br><li>The band's music is renowned "+
+    " for its dramatic, eccentric production and Welch's powerful vocals.</li><br><li>"+
+    " <b>Florence and the Machine's</b> style has been described as <b>\"dark, robust and romantic\"</b></li></ol> "),
 
     title03: "<u>Song Facts</u>:",
 

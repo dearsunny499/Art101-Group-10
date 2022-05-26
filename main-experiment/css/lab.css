@@ -90,9 +90,7 @@ html{
   background-color: azure;
 }
 
-body{
-  background-image: url("..img/")
-}
+
 
 h1, h2{
   font-family: "Lucida Console", "Courier New", monospace;
@@ -221,8 +219,6 @@ h3, h4{
   margin: 60px 220px 10px 70px;
 }
 
-
-}
 
 /* Dropdown Button */
 /*Yanyaos Drop DOWN Button*/
