@@ -204,7 +204,7 @@ var songTable1 = [
 
 ]
 
-
+//Anxiety Songtable function
 $(".song").click(function(){
 	var songNum = $(this).data("songnum");
   console.log("Button Pressed: " + songNum);
@@ -561,6 +561,7 @@ var songTable3 = [
 
 ]
 
+//Depression SongTable function
 
 $(".song").click(function(){
 	var songNum = $(this).data("songnum");
