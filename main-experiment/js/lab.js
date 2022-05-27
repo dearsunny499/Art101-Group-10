@@ -607,3 +607,163 @@ $(".song").click(function(){
 	$("#show-song3").html(songHTML);
 
 });
+
+
+
+//OCD SongTable
+var songTable4 = [
+	{
+    //break up the song title and artist name
+  	songTitle: "Brain Lock" ,
+		author: " Song by: Johnny Franck",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li><b>Johnny Franck</b> is a singer , songwriter and is the the "+
+    " main contributing member of <b>Alternative Indie-Pop</b> band <b><u>Bilmuri</u></b> "+
+    " and<br> <b>Progressive Post-Hardcore</b> band <b><u>The March Ahead</u></b> as "+
+    " well as the former <i>clean vocalist</i> and <i>rhythm guitarist</i> of "+
+    " <b>metalcore/electronicore</b> band <b><u>Attack Attack</u></b>!</li><br><li>"+
+    " <b>Attack Attack!</b> was an <b>American metalcore/electronicore</b> band "+
+    " from <b>Westerville, Ohio,</b> formed in 2007 originally known as <br><b>Ambiance</b>, "+
+    " later changing their name.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> This song was Produced, Mixed, and Mastered by "+
+    " <b>Johnny Franck</b>.</li><br><li>This song was released in 2016.</li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li>Make listeners feel they are on a golden journey. "+
+    " </li><br><li>Inspire people to have some conversation with themselves.</li></ol> "),
+
+    cover: "brain.png"
+  },
+	{
+  	songTitle: "Crazy Love",
+		author: "Song by: Mindy Gledhill",
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li><b>Mindy Gledhill</b> is an indie award winning singer "+
+    " from <b>Eureka, California</b>.</li><br><li>She is also known for her guest "+
+    " vocal work for <b>DJ Kaskade</b>. She is very deep in the pop culture scene.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li>On April 3, 2011 the single <b>\"<u>Crazy Love</u>\"</b>"+
+    " reached <b>No. 1</b> on the <b>Korean streaming service <u>Bugs Music.</u></b></li><br><li>"+
+    " The song also reached <b>No. 7</b> on the <b>South Korea (<u>GAON</u>)</b> music chart. "+
+    " </li><br><li>Seven other tracks also charted on the S. Korean charts.</li><br><li>"+
+    " Music videos for <b>\"<u>Anchor</u>\"</b> and <b>\"<u>Whole Wide World</u>\"</b>"+
+    " have both amassed more than 1 million views on YouTube.</li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li>This song increases the release of serotonin in the "+
+    " brain which seems to be effective in reducing obsessions as well as anxiety "+
+    " and depressive symptoms.</li><br><li>The song is influential in making people smile.</li></ol> "),
+
+    cover: "crazyLove.png"
+  },
+	{
+    songTitle: "My OCD" ,
+    author: " Song by: Rhett & Link",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li><b>Rhett and Link</b> are an American comedy duo.</li><br><li>"+
+    " They are known for creating and hosting the <b>YouTube series <u>Good Mythical Morning</u></b>.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li>It was<b> Released on June 11, 2014</b>.</li><br><li>"+
+    " <b>\"My OCD\"</b> is about a man and his urge to fix a normally acceptable, "+
+    " fake sort of OCD.</li><br><li>The doctor is played by <b>Rhett Mclaughlin</b>.</li><br><li>"+
+    " It was <b><u> Produced by:</u></b><br> <dd><b>- Stevie Wynne Levine</b></dd> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li><b>\"My OCD\"</B> helps people to find something in common."+
+    " </li><br><li>It supports people and gives them energy.</li></ol> "),
+
+    cover: "ocd.png"
+  },
+  {
+    songTitle: "Make It Happen" ,
+    author: " Song by: Mariah Carey",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> This inspiring song from <b>Mariah Carey's</b> second album "+
+    " is a <b>rags-to-riches</b> story about the singer's rise to fame.</li><br><li>"+
+    " The Long Island native was born into a troubled home fraught with domestic violence. "+
+    " Her parents divorced when she was little and she was constantly on the move "+
+    " with her mother, who struggled to support them.</li><br><li> The singer's "+
+    " circumstances didn't improve much when she moved to New York City as a teenager "+
+    " to pursue a music career, but through faith and determination she "+
+    " <b>\"made it happen\"</b> and landed a record deal with <b><u>Columbia</u></b>.</li><br><li>"+
+    " Her self-titled debut album was a major success, spawning <b>four #1 hit singles</b>"+
+    " and launching her into stardom.</li><br><li>According to <b>Mariah, optimism "+
+    " is an essential component to her music</b>, which she hopes will inspire her "+
+    " fans to follow their own dreams.</li><br><li>"+
+    " <b>\"I like to try and give positive messages, if I can in my music, "+
+    " whenever I can... like with the songs <u>'Make It Happen'</u> and <u>'Hero'</u>,\"</b>"+
+    " she told <b><u>Jet magazine</u></b> in 1994.</li><br><li>"+
+    " <b>\"I do this because there is a lot of negativity out there and lot of people "+
+    " are singing about how screwed up the world is, and I don't think that everybody "+
+    " wants to hear about that all the time.\"</b> - Mariah</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li><b>\"Make It Happen\"</b> was <b>written</b> and <b>produced</b>"+
+    " by: <br> <dd><b>- Carey and <u>C+C Music Factory's:</u> David Cole and Robert Clivillés.</b></dd> </li><br><li>"+
+    " The song was praised by music critics, many of whom applauded Carey's incorporation "+
+    " of several musical genres, as well as the song's personalized lyrical content.</li><br><li>"+
+    " The song's music video was filmed in a cathedral-like church.</li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li>The inspiring vocals give people motivations and inspirations.</li><br><li>"+
+    " It encourages people to be independent and try things with their talents.</li><br><li>"+
+    " It madd people to believe in faith.</li></ol> "),
+
+    cover: "happen.png"
+  }
+
+]
+
+//OCD SongTable function
+
+$(".song").click(function(){
+	var songNum = $(this).data("songnum");
+  console.log("Button Pressed: " + songNum);
+  var songData = songTable4[songNum];
+  console.log("Song data: ", songData);
+
+
+  songHTML = `
+    <img class="cover" src='img/${songData.cover}'>
+
+  	<h3 class=title>${songData.songTitle}</h3>
+		<h3 class=title>${songData.author}</h3>
+
+    <h4 class=title02>${songData.title02}</h4>
+    <div class="desc">${songData.description}</div>
+
+    <h4 class=title03>${songData.title03}</h4>
+    <div class="desc">${songData.description02}</div>
+
+    <h4 class=title04>${songData.title04}</h4>
+    <div class="desc">${songData.description03}</div>
+
+</body>
+</html>
+    `
+	$("#show-song4").html(songHTML);
+
+});
