@@ -463,7 +463,7 @@ var songTable3 = [
     " one more day.</li><br><li>There is a transition from <b>“we”</b> to <b>“I”</b> "+
     " in the song, which deals with Mark’s loneliness of being on tour.</li></ol> "),
 
-    cover: "song1.png"
+    cover: "adam.png"
   },
 	{
   	songTitle: "Hurt",
@@ -499,7 +499,7 @@ var songTable3 = [
     " while others believe it reflects the tough process of finding a purpose to live <br>"+
     " despite depression and agony and has little to do with The Downward Spiral's plot.</li></ol> "),
 
-    cover: "song2.png"
+    cover: "hurt.png"
   },
 	{
     songTitle: "Eyes On Fire" ,
@@ -532,7 +532,7 @@ var songTable3 = [
     " <b><i>\“The eyes are commonly referred to as the window to the soul, and as  "+
     " the song is sung as personified drug, the drug has ‘fire in its eyes.’\”</b></i></li></ol> "),
 
-    cover: "song3.png"
+    cover: "blueFound.png"
   },
   {
     songTitle: "Breaking Down " ,
@@ -550,13 +550,29 @@ var songTable3 = [
 
     title03: "<u>Song Facts</u>:",
 
-    description02: ("<ol><li> </li></ol> "),
+    description02: ("<ol><li><dl><b><u>Written by:</u></b><br> <dd><b>- James Ford "+
+    " </b><br></dd> <dd><b>- Florence welch</b><br></dl></dd></li> <dl><li><b><u> "+
+    " Produced by:</u></b><br> <dd><b>-Paul Epworth</b><br></dl></dd></li> "+
+    " <dl><li><b><u>Released:</u></b><br> <dd><b>- 2011</b><br></dl></dd></li> "+
+    " <dl><li><b><u>Album:</u></b><br> <dd><b>-Ceremonials</b><br></dl></dd></li>"+
+    " <dl><li><b><u>Genres:</u></b><br> <dd><b>-Alternative/ Indie and Pop</b><br></dl></dd></li>"+
+    " <li>Florence’s depression arrives when she’s about to go to sleep; commonly, "+
+    " people rethink their whole day before they sleep, and this serves as a trigger<br> "+
+    " for Florence’s depression.</li><br><li> Once again, rather than being described "+
+    " as something fearful, it’s personified as a friend that fills the space "+
+    " that her love has left in her bed.</li><br><li> Since depression is a familiar "+
+    " thing for <b>Florence</b>, it acts as a sort of <b><i>comfort</i></b>.<br><br>"+
+    " <b><b>“Breaking Down Again”</b></b></li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> </li></ol> "),
+    description03: ("<ol><li> This song evokes both mental fragility and childhood fears."+
+    "</li><br><li>As it was inspired by the ending of a relationship for a second time.</li><br><li>"+
+    " Makes a listener feel like they are breaking down several times as the song "+
+    " writer felt.</li><br><li><b>Florence</b> felt totally mad and brought their "+
+    " listeners with them.</li></ol> "),
 
-    cover: "crawling.png"
+    cover: "breakingDown.png"
   }
 
 ]
