@@ -767,3 +767,124 @@ $(".song").click(function(){
 	$("#show-song4").html(songHTML);
 
 });
+
+
+
+
+
+//Insomnia SongTable
+var songTable5 = [
+	{
+    //break up the song title and artist name
+  	songTitle: "How Do You Sleep? " ,
+		author: " Song by: Sam Smith",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li><b>Sam Smith</b> is an English singer and songwriter.</li><br><li> "+
+    " As of April 2022, <b>Smith</b> has sold over <b>33 million albums</b> and "+
+    " <b>227 million singles</b> worldwide.</li><br><li>Smith's achievements include: "+
+    " <br> <dd><b>- Four Grammy Awards <br> <dd><b>- Three Brit Awards <br> "+
+    " <dd><b>- Three Billboard Music Awards <br> <dd><b>- An American Music Award "+
+    " <br> <dd><b>- Golden Globe and an Academy Award.Smith is genderqueer and uses they/them pronouns.</li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> </li></ol> "),
+
+    cover: "song2.png"
+  },
+	{
+  	songTitle: " ",
+		author: "Song by: ",
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> </li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> </li></ol> "),
+
+    cover: "song3.png"
+  },
+	{
+    songTitle: " " ,
+    author: " Song by: ",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> </li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> </li></ol> "),
+
+    cover: "song4.png"
+  },
+  {
+    songTitle: " " ,
+    author: " Song by: ",
+
+
+    title02: "<u>Artist Facts</u>: ",
+    //need to make these bullet point notes
+    description: ("<ol><li> </li></ol> "),
+
+    title03: "<u>Song Facts</u>:",
+
+    description02: ("<ol><li> </li></ol> "),
+
+    title04: "<u>Mental Facts</u>:",
+
+    description03: ("<ol><li> </li></ol> "),
+
+    cover: "song5.png"
+  }
+
+]
+
+//Insomnia SongTable function
+
+$(".song").click(function(){
+	var songNum = $(this).data("songnum");
+  console.log("Button Pressed: " + songNum);
+  var songData = songTable5[songNum];
+  console.log("Song data: ", songData);
+
+
+  songHTML = `
+    <img class="cover" src='img/${songData.cover}'>
+
+  	<h3 class=title>${songData.songTitle}</h3>
+		<h3 class=title>${songData.author}</h3>
+
+    <h4 class=title02>${songData.title02}</h4>
+    <div class="desc">${songData.description}</div>
+
+    <h4 class=title03>${songData.title03}</h4>
+    <div class="desc">${songData.description02}</div>
+
+    <h4 class=title04>${songData.title04}</h4>
+    <div class="desc">${songData.description03}</div>
+
+</body>
+</html>
+    `
+	$("#show-song5").html(songHTML);
+
+});
