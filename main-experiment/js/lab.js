@@ -785,13 +785,19 @@ var songTable5 = [
     description: ("<ol><li><b>Sam Smith</b> is an English singer and songwriter.</li><br><li> "+
     " As of April 2022, <b>Smith</b> has sold over <b>33 million albums</b> and "+
     " <b>227 million singles</b> worldwide.</li><br><li>Smith's achievements include: "+
-    " <br> <dd><b>- Four Grammy Awards <br> <dd><b>- Three Brit Awards <br> "+
-    " <dd><b>- Three Billboard Music Awards <br> <dd><b>- An American Music Award "+
-    " <br> <dd><b>- Golden Globe and an Academy Award.Smith is genderqueer and uses they/them pronouns.</li></ol> "),
+    " <br><br> <dd><b>- Four Grammy Awards </b></dd> <br> <dd><b>- Three Brit Awards </b></dd><br> "+
+    " <dd><b>- Three Billboard Music Awards </b></dd> <br> <dd><b>- An American Music Award </b></dd>"+
+    " <br> <dd><b>- Golden Globe and an Academy Award </b></dd>"+
+    " </li><br><li><b>Smith</b> is <b>genderqueer</b> and uses they/them pronouns.</li></ol> "),
 
     title03: "<u>Song Facts</u>:",
 
-    description02: ("<ol><li> </li></ol> "),
+    description02: ("<ol><li><b>\"How Do You Sleep\"</b> was released on 19 July 2019. </li><br><li>"+
+    " The song appears on Smith's <i>third studio album</i> <b><u>Love Goes</u> (2020)</b>.</li><br><li>"+
+    " <b>Smith</b> co-wrote the song with <b>Savan Kotecha</b>, <b>Max Martin</b>, and <b>Ilya</b> "+
+    " (<i>the latter of whom produced the song</i>).</li><br><li><u><b>Rolling Stone</u></b> "+
+    " described the song as a <b>\"pop ballad about trying to move on\"</b>.
+ </li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
