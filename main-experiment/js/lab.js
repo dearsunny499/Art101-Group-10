@@ -967,3 +967,7 @@ $(".song").click(function(){
 	$("#show-song5").html(songHTML);
 
 });
+
+$('#header-img').click(function() {
+  location.reload();
+});
