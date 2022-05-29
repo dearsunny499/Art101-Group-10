@@ -796,68 +796,139 @@ var songTable5 = [
     " The song appears on Smith's <i>third studio album</i> <b><u>Love Goes</u> (2020)</b>.</li><br><li>"+
     " <b>Smith</b> co-wrote the song with <b>Savan Kotecha</b>, <b>Max Martin</b>, and <b>Ilya</b> "+
     " (<i>the latter of whom produced the song</i>).</li><br><li><u><b>Rolling Stone</u></b> "+
-    " described the song as a <b>\"pop ballad about trying to move on\"</b>.
- </li></ol> "),
+    " described the song as a <b>\"pop ballad about trying to move on\"</b>.</li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> </li></ol> "),
+    description03: ("<ol><li> The song is so inspirational that people would "+
+    " describe it as art and make them feel alive again.</li><br><li>The song "+
+    " can make people feel they are connecting souls together.</li></ol> "),
 
     cover: "song2.png"
   },
 	{
-  	songTitle: " ",
-		author: "Song by: ",
+  	songTitle: "The Lion Sleeps Tonight",
+		author: "Song by: The Tokens",
 
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li> </li></ol> "),
+    description: ("<ol><li><b>The Tokens</b> were an American doo-wop band and "+
+    " record production company group from Brooklyn, New York City, who are best "+
+    " known for their chart-topping 1961 hit single, <b>\"The Lion Sleeps Tonight\"</b>.</li><br><li>"+
+    " The band was formed in 1955 at <b>Brooklyn's \"Abraham Lincoln\" High School</b>"+
+    " of New York City, and was known first as the <b>Linc-Tones</b>, a name inspired "+
+    " by the <u><b>President of the United States' surname</b></u>.</li><br><li>"+
+    " Original members were <b>Neil Sedaka</b>, <b>Hank Medress</b>, <b>Eddie Rabkin</b>, "+
+    " and <b>Cynthia Zolotin</b>, however <b>Rabkin</b> was replaced in 1956 by <b>Jay Siegel</b>.</li></ol> "),
 
     title03: "<u>Song Facts</u>:",
 
-    description02: ("<ol><li> </li></ol> "),
+    description02: ("<ol><li><b>\"The Lion Sleeps Tonight\"</b>, also known as "+
+    "<b>\"Wimoweh\"</b> and <i>originally</i> known as <b>\"Mbube\"</b>.</li><br><li>"+
+    " It is a song recorded by <b>Solomon Linda</b> and his group <b><u>The Evening Birds</u></b>"+
+    " for the <b><u>South African Gallo Record Company</u></b> in 1939.</li><br><li>"+
+    " It was covered internationally by many 1950s pop and folk revival artists, "+
+    " including: <br> <dd><b>- The Weavers </b></dd> <br> <dd><b>- Jimmy Dorsey "+
+    " </b></dd> <br> <dd><b>- Yma Sumac </b></dd> <br> <dd><b>- Miriam Makeba "+
+    " </b></dd> <br> <dd><b>- The Kingston Trio</b></dd></li><br><li>. <b>\"Mbube\"</b> "+
+    " (<b><u><i>Zulu: lion</i></u></b>) written by Solomon Linda, "+
+    " who worked for the Gallo Record Company as a cleaner, record packer, "+
+    " and who performed with a choir, <b>The Evening Birds</b>.</li><br><li> "+
+    " According to South African journalist <b><u>Rian Malan</u></b>, "+
+    " <b>\"Solomon was the orrignal author of the lyric <i>'In the jungle, the mighty "+
+    " jungle, the lion sleeps tonight'</i>\"</b></li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> </li></ol> "),
+    description03: ("<ol><li>The rhythm can cheer people up.</li><br><li>"+
+    " It can help people to relax and move with the song.</li><br><li>"+
+    " Yet it also enhances the <b>Dopamine</b> levels within a listener's mind, "+
+    " making it hard to concentrate and sleep.</li><br><li> It is meant to be a "+
+    " play on emotions & words. Where the song talks about a lion sleeping but "+
+    " is also meant to keep the audience entertained / awake.</li></ol> "),
 
     cover: "song3.png"
   },
 	{
-    songTitle: " " ,
-    author: " Song by: ",
+    songTitle: "Where Did You Sleep Last Night?" ,
+    author: " Song by: Nirvana",
 
 
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li> </li></ol> "),
+    description: ("<ol><li><b>Nirvana</b> was an American rock band formed in "+
+    " <b><u>Aberdeen, Washington</u></b>, in 1987.</li><br><li> "+
+    " Founded by: <br> <dd>- <i>lead singer</i> and <i>guitarist</i> <b>Kurt Cobain</b> </dd> <br> <dd> - "+
+    " <i>bassist</i> <b>Krist Novoselic</b> </dd></li><br><li>The band went through "+
+    " a succession of drummers, most notably <b>Chad Channing</b>, before recruiting "+
+    " <b>Dave Grohl</b> in 1990.</li><br><li>Their music maintains a popular following "+
+    " and continues to influence modern rock culture.</li><br><li>They are characterized "+
+    " by their punk aesthetic, <b>Nirvana's</b> fusion of pop melodies with noise, "+
+    " combined with their themes of abjection and social alienation, brought them "+
+    " global popularity.</li></ol> "),
 
     title03: "<u>Song Facts</u>:",
 
-    description02: ("<ol><li> </li></ol> "),
+    description02: ("<ol><li>It is a traditional American folk song which dates "+
+    " back to at least the 1870s, and is believed to be Southern Appalachian in origin.</li><br><li>"+
+    " <b>\"Where Did You Sleep Last Night\"</b> was occasionally performed live "+
+    " by the American rock band <b>Nirvana</b> during the early 1990s.</li><br><li>"+
+    " The <i>original</i> song's author is <b>Leadbelly</b>, his stage name, "+
+    " or <b>Huddie William Ledbetter</b> (January 1888 – December 6, 1949).</li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> </li></ol> "),
+    description03: ("<ol><li> Many express this song to be <b>\"unearthly\"</b> causing "+
+    " listeners to feel as if there minds are being attacked by <b>\"a werewolf\".</li><br><li></b>"+
+    " The tortured vocals in the end was unintentional by Cobain. Yet has said to make "+
+    " listeners almost freeze in place and go on a dream trip.</li><br><li>"+
+    " It creeps out some individuals to a point where they can not sleep.</li></ol> "),
 
     cover: "song4.png"
   },
   {
-    songTitle: " " ,
-    author: " Song by: ",
+    songTitle: "Blinding Lights " ,
+    author: " Song by: The Weekend",
 
 
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li> </li></ol> "),
+    description: ("<ol><li><b>Abel Makkonen Tesfaye</b> (born February 16, 1990), "+
+    " known professionally as <b>The Weeknd</b>, is a Canadian singer-songwriter "+
+    " and record producer.</li><br><li> Known for his sonic versatility and dark "+
+    " lyricism, his music explores escapism, romance, and melancholia, and is "+
+    " often inspired by personal experiences. </li></ol> He has received numerous "+
+    " accolades, including: <br> <dd><b>- Four Grammy Awards </b></dd> <br> "+
+    " <dd><b>- 20 Billboard Music Awards </b></dd> <br> <dd><b>- 17 Juno Awards "+
+    " </b></dd> <br> <dd><b>- Six American Music Awards </b></dd> <br> "+
+    " <dd><b>- Two MTV Video Music Awards </b></dd> <br> <dd><b>- Nominations for "+
+    " an Academy Award </b></dd> <br> <dd><b>- Latin Grammy Award </b></dd> <br> "+
+    " <dd><b>- Primetime Emmy Award </li><br><li> Born and raised in <b>Toronto, "+
+    " Tesfaye</b> began his music career in 2009 by anonymously releasing music "+
+    " on YouTube.</li></ol> "),
 
     title03: "<u>Song Facts</u>:",
 
-    description02: ("<ol><li> </li></ol> "),
+    description02: ("<ol><li>This up-tempo electropop track finds <b>The Weeknd</b> "+
+    " recounting how his lover lights up his life.</li><br><li>The singer is not at "+
+    " peace unless he is in the company of his lady. </li><br><li> So who is the "+
+    " <i>lady</i> <b>The Weekend</b> is speaking of? It is likely the singer is "+
+    " addressing his on-off-on girlfriend, <b>Bella Hadid</b>.</li><br><li>"+
+    " The clue is in the song's bridge where <b>Abel</b> (<i>The Weekend</i>) "+
+    " tells the girl he <b>\"will never let her go this time.\"</b> </li><br><li>"+
+    " <b>The Weeknd</b> told <b><u>Esquire</u></b> the song is about wanting to "+
+    " see your lover so much, even being inebriated won't put you off.</li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
 
-    description03: ("<ol><li> </li></ol> "),
+    description03: ("<ol><li> Heart break, loss, and time. <b>Blinding Lights</b> "+
+    " is a song about all three of those concepts. Feeling so heart broken puts "+
+    " someone in such a state of darkness and makes it hard to sleep.</li><br><li>"+
+    " The Weekend commented, <b>\"You're driving to this person and you're just "+
+    " blinded by streetlights, but nothing could stop you from trying to go see "+
+    " that person, because you're so lonely,\" </b> </li><br><li> He explained, "+
+    " listners will feel the pain of someone hearrbroken and the anxious want to "+
+    " sleep but can't.</li></ol> "),
 
     cover: "song5.png"
   }
