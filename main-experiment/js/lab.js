@@ -84,14 +84,16 @@ var songTable1 = [
     title03: "<u>Song Facts</u>:",
     //Bold ANXIETY
     description02: ("<ol><li><b>Ariana Grande</b> released her highly-anticipated album <u><b>Sweetener</b></u> "+
-    " on Friday, August 17 and while there are several songs on the project that "+
+    " on Friday, August 17 and while there are several songs on the project <br> that "+
     " have struck a chord with fans, listeners couldn't help but to wonder if the "+
     " lyrics to Grande's <b>\"Breathin\"</b> are about the singer's struggle with anxiety.</li><br> "+
-    " <li><i><b>\"My anxiety has anxiety, I've always had anxiety. I've never really spoken about it because I thought everyone had it, but when I got home from the tour it was the most severe I think it's ever been.\"</b></i> - Ariana Grande.</li><br> "+
+    " <li><i><b>\"My anxiety has anxiety, I've always had anxiety. I've never really "+
+    " spoken about it because I thought everyone had it, but when <br> I got home "+
+    " from the tour it was the most severe I think it's ever been.\"</b></i> - Ariana Grande.</li><br> "+
     " <li>Breathin is about being reminded that when life is just taking over and you "+
     " can't see a way to sense your core self, you need to stop and just breathe.</li><br> "+
     " <li>The picture Grande paints with her lyrics, with everyday tasks seemingly taking "+
-    " more energy and the feeling that the room is spinning, is one every person "+
+    " more energy and the feeling that the room is spinning, is one every <br> person "+
     " who has ever suffered from anxiety will recognize.</li><br> <li>Leading into the pre-chorus, "+
     " Grande shares some of the feelings she endures in those moments.</li></ol> "),
 
@@ -165,9 +167,9 @@ var songTable1 = [
 		" a listener into a state about leaving somewhere and leaving your comfort zone.</li><br><li>"+
 		" It reminds a listener that we as humans spend a lot of years trying to get "+
 		" something - fame or recognition or getting to a certain point, and then when "+
-		" you actually achieve it, there's always a certain amount of fear that comes "+
+		" you <br> actually achieve it, there's always a certain amount of fear that comes "+
 		" with that, a sense of loss of control, because all of the sudden you're not "+
-		" in control of a situation any more, there's other people involved, it gets bigger "+
+		" in control of a <br> situation any more, there's other people involved, it gets bigger "+
 		" and bigger with much more stress.</li></ol>"),
 
     cover: "overkill.png",
@@ -216,16 +218,16 @@ $(".song").click(function(){
     <img class="cover" src='img/${songData.cover}'>
 
 
-  	<h3 class=title>${songData.songTitle}</h3>
-		<h3 class=title>${songData.author}</h3>
+    <h4 class=title>${songData.songTitle}</h4>
+		<h5 class=title>${songData.author}</h5>
 
-    <h4 class=title02>${songData.title02}</h4>
+    <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
 
-    <h4 class=title03>${songData.title03}</h4>
+    <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
 
-    <h4 class=title04>${songData.title04}</h4>
+    <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 
 </body>
@@ -300,7 +302,7 @@ var songTable2 = [
     " <li>Lambert has been very vocal about her bipolar disorder, showing how even "+
     " celebrities and influencers struggle with mental health issues.</li><br> "+
     "<li>She is very outspoken when it comes to body image, and has detailed her "+
-    " struggles with her body and how hurtful body shaming can be in her blog post, "+
+    " struggles with her body and how hurtful body shaming can <br> be in her blog post, "+
     " \<i><b>“I want to talk about Body Positivity, OK?\”</b></i></li></ol>"),
 
 
@@ -308,7 +310,7 @@ var songTable2 = [
 
     description02: ("<ol><li><b> Released in Jul 31, 2014</b>"+
     " The meaning and purpose of the song was about how Lambert \<i><b>“does not care what "+
-    " people think about her or her secrets\”</b></i> and \<b><i>“she’s just going to be <b>herself</b>.\”</b></i></li>"+
+    " people think about her or her secrets\”</b></i> and <br>\<b><i>“she’s just going to be <b>herself</b>.\”</b></i></li>"+
     " <br><li>Overall, the song discusses her struggles with her sexuality, mental health, and body image.</li></ol>"),
 
 
@@ -372,16 +374,16 @@ var songTable2 = [
     " <b>“<u>Raging Fire</u>,”</b>off his sophomore album, <b><u>Behind The Light</u></b>, "+
     " on March 3rd, 2014.</li><br><li><b>“Raging Fire”</b> fused a new heavier, "+
     " rockier sound with the warm and anthemic qualities of Phillip’s two previous "+
-    " massive hits, <b>“<u>Home</u>”</b> and <b>“<u>Gone Gone Gone.</u>”</b></li><br><li> "+
+    " massive hits,<br> <b>“<u>Home</u>”</b> and <b>“<u>Gone Gone Gone.</u>”</b></li><br><li> "+
     " A song composed of two contrasts: string instruments and rocking drums</li></ol>"),
 
 		title04: "<u>Mental Facts</u>:",
 
 		description03: ("<ol><li> Phillips states that the song is <b><i>“about love, "+
-    " and about wanting to feel the same way you felt the first time you kissed <br>"+
-    " the person you love. It is indeed a beautiful song about love, particularly<br>"+
-    " long-lasting love, and about keeping passion alive in your heart in the name<br>"+
-    " of all your shared hopes, pains and memories.”</b></i> (from this website <a> http://www.phillphill.com/tag/raging-fire/</a>) "+
+    " and about wanting to feel the same way you felt the first time you kissed "+
+    " the person you love.<br> It is indeed a beautiful song about love, particularly "+
+    " long-lasting love, and about keeping passion alive in your heart in the name <br>"+
+    " of all your shared hopes, pains and memories.”</b></i> (from this website: <a> http://www.phillphill.com/tag/raging-fire/</a>) "+
     " </li><br><li>Additionally, he believes that passion and hope is always worth fighting for "+
     " and believing in, which rings even more true when you’re in a dark place</li></ol>"),
 
@@ -403,16 +405,16 @@ $(".song").click(function(){
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
 
-  	<h3 class=title>${songData.songTitle}</h3>
-		<h3 class=title>${songData.author}</h3>
+    <h4 class=title>${songData.songTitle}</h4>
+		<h5 class=title>${songData.author}</h5>
 
-    <h3 class=title02>${songData.title02}</h3>
+    <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
 
-    <h3 class=title03>${songData.title03}</h3>
+    <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
 
-    <h3 class=title04>${songData.title04}</h3>
+    <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 
 </body>
@@ -527,7 +529,7 @@ var songTable3 = [
     " Shuffling the cards of your game</i>\”</b> implies how all of your pains "+
     " and sorrows have gone away during substance use.</li><br><li> With more excessive "+
     " use of these substances comes a higher tolerance, and you’re more likely "+
-    " to continue to increase the dosage and slowly become addicted, <b><i>“shuffling”</i></b>"+
+    " to continue to increase the dosage and slowly become <br> addicted, <b><i>“shuffling”</i></b>"+
     " your feelings on the important things in your life.</li><br><li>"+
     " <b><i>\“The eyes are commonly referred to as the window to the soul, and as  "+
     " the song is sung as personified drug, the drug has ‘fire in its eyes.’\”</b></i></li></ol> "),
@@ -589,16 +591,16 @@ $(".song").click(function(){
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
 
-  	<h3 class=title>${songData.songTitle}</h3>
-		<h3 class=title>${songData.author}</h3>
+    <h4 class=title>${songData.songTitle}</h4>
+		<h5 class=title>${songData.author}</h5>
 
-    <h4 class=title02>${songData.title02}</h4>
+    <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
 
-    <h4 class=title03>${songData.title03}</h4>
+    <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
 
-    <h4 class=title04>${songData.title04}</h4>
+    <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 
 </body>
@@ -712,10 +714,10 @@ var songTable4 = [
     " is an essential component to her music</b>, which she hopes will inspire her "+
     " fans to follow their own dreams.</li><br><li>"+
     " <b>\"I like to try and give positive messages, if I can in my music, "+
-    " whenever I can... like with the songs <u>'Make It Happen'</u> and <u>'Hero'</u>,\"</b>"+
+    " whenever I can... like with the songs <u>'Make It Happen'</u> and <br> <u>'Hero'</u>,\"</b>"+
     " she told <b><u>Jet magazine</u></b> in 1994.</li><br><li>"+
     " <b>\"I do this because there is a lot of negativity out there and lot of people "+
-    " are singing about how screwed up the world is, and I don't think that everybody "+
+    " are singing about how screwed up the world is, and I don't think that <br> everybody "+
     " wants to hear about that all the time.\"</b> - Mariah</li></ol> "),
 
     title03: "<u>Song Facts</u>:",
@@ -749,16 +751,16 @@ $(".song").click(function(){
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
 
-  	<h3 class=title>${songData.songTitle}</h3>
-		<h3 class=title>${songData.author}</h3>
+    <h4 class=title>${songData.songTitle}</h4>
+		<h5 class=title>${songData.author}</h5>
 
-    <h4 class=title02>${songData.title02}</h4>
+    <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
 
-    <h4 class=title03>${songData.title03}</h4>
+    <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
 
-    <h4 class=title04>${songData.title04}</h4>
+    <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 
 </body>
@@ -864,7 +866,7 @@ var songTable5 = [
     " <b>Dave Grohl</b> in 1990.</li><br><li>Their music maintains a popular following "+
     " and continues to influence modern rock culture.</li><br><li>They are characterized "+
     " by their punk aesthetic, <b>Nirvana's</b> fusion of pop melodies with noise, "+
-    " combined with their themes of abjection and social alienation, brought them "+
+    " combined with their themes of <br> abjection and social alienation, brought them "+
     " global popularity.</li></ol> "),
 
     title03: "<u>Song Facts</u>:",
@@ -894,10 +896,10 @@ var songTable5 = [
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
     description: ("<ol><li><b>Abel Makkonen Tesfaye</b> (born February 16, 1990), "+
-    " known professionally as <b>The Weeknd</b>, is a Canadian singer-songwriter "+
+    " known professionally as <b>The Weeknd</b>, is a Canadian singer-songwriter <br>"+
     " and record producer.</li><br><li> Known for his sonic versatility and dark "+
     " lyricism, his music explores escapism, romance, and melancholia, and is "+
-    " often inspired by personal experiences. </li><br><li> He has received numerous "+
+    " often <br> inspired by personal experiences. </li><br><li> He has received numerous "+
     " accolades, including: <br><br> <dd><b>- Four Grammy Awards </b></dd> <br> "+
     " <dd><b>- 20 Billboard Music Awards </b></dd> <br> <dd><b>- 17 Juno Awards "+
     " </b></dd> <br> <dd><b>- Six American Music Awards </b></dd> <br> "+
@@ -947,16 +949,16 @@ $(".song").click(function(){
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
 
-  	<h3 class=title>${songData.songTitle}</h3>
-		<h3 class=title>${songData.author}</h3>
+    <h4 class=title>${songData.songTitle}</h4>
+		<h5 class=title>${songData.author}</h5>
 
-    <h4 class=title02>${songData.title02}</h4>
+    <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
 
-    <h4 class=title03>${songData.title03}</h4>
+    <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
 
-    <h4 class=title04>${songData.title04}</h4>
+    <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 
 </body>

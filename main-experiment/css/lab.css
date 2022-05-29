@@ -91,21 +91,55 @@ html{
 }
 
 
-
+/*h1 = website title*/
+/*h2 = Art 101 and Group 10*/
 h1, h2{
-  font-family: "Lucida Console", monospace;
-  font-size: 30px;
+  font-family: anton;
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 1.1px;
   text-align: center;
-  margin: auto;
-
-
 }
 
-h3, h4{
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 45px;
+/*h3 = About Us Label (inside pop up)*/
+/*h4 = Song Titles*/
+/*h5 = Authors*/
+/*h6 = Desc. Titles*/
+h3, h4, h5, h6{
+  font-family: anton;
   text-align: left;
+  line-height: 1.1px;
 }
+
+h3{
+  font-size: 45px;
+}
+
+h4{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+h5{
+  font-size: 35px;
+  line-height: 1px;
+  margin-bottom: 60px;
+}
+
+h6{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+/* Facts */
+.desc{
+  font-family: anton;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 
 /* MAIN BUTTON CONTAINER */
 /*container for buttons and images*/
@@ -131,7 +165,7 @@ h3, h4{
   background-color: Transparent;
   color: #FFF5EE;
   font-size: 70px;
-  font-family: 'Brush Script MT', cursive;
+  font-family: anton;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
@@ -143,7 +177,6 @@ h3, h4{
 }
 
 
-
 #main-btn:hover{
   background-color: AliceBlue;
 }
@@ -151,7 +184,8 @@ h3, h4{
 
 /* MOOD OPTIONS BUTTONS */
 
-#mood1{
+#mood1, #mood2, #mood3, #mood4,#mood5{
+  font-family: anton;
   background-position: center top;
   background-image:url("../img/co.png");
   background-size: contain;
@@ -161,59 +195,10 @@ h3, h4{
   width: 290px;
   height: 190px;
   text-align: center;
-
+  margin: 300px 0px 0px 40px;
 }
 
-
-#mood2{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
-}
-
-
-#mood3{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
-}
-
-#mood4{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
-}
-
-#mood5{
-  background-position: center top;
-  background-image:url("../img/co.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: Transparent;
-  border: none;
-  width: 290px;
-  height: 190px;
-  text-align: center;
-}
-
+/*Cover song images*/
 .cover {
   float: right;
   width: 390px;
@@ -251,8 +236,8 @@ h3, h4{
   border-radius: 25px;
   position: absolute;
   background-color: #f1f1f1;
-  width: 500px;
-  height: 500px;
+  width: relative;
+  height: relative;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   padding: 10px 20px 10px 20px;
@@ -264,7 +249,7 @@ h3, h4{
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  
+
 }
 
 /* Change color of dropdown links on hover */
