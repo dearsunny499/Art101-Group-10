@@ -804,7 +804,7 @@ var songTable5 = [
     " describe it as art and make them feel alive again.</li><br><li>The song "+
     " can make people feel they are connecting souls together.</li></ol> "),
 
-    cover: "song2.png"
+    cover: "sleep.png"
   },
 	{
   	songTitle: "The Lion Sleeps Tonight",
@@ -847,7 +847,7 @@ var songTable5 = [
     " play on emotions & words. Where the song talks about a lion sleeping but "+
     " is also meant to keep the audience entertained / awake.</li></ol> "),
 
-    cover: "song3.png"
+    cover: "theLion.png"
   },
 	{
     songTitle: "Where Did You Sleep Last Night?" ,
@@ -884,7 +884,7 @@ var songTable5 = [
     " listeners almost freeze in place and go on a dream trip.</li><br><li>"+
     " It creeps out some individuals to a point where they can not sleep.</li></ol> "),
 
-    cover: "song4.png"
+    cover: "nirvana.png"
   },
   {
     songTitle: "Blinding Lights " ,
@@ -930,7 +930,7 @@ var songTable5 = [
     " listners will feel the pain of someone hearrbroken and the anxious want to "+
     " sleep but can't.</li></ol> "),
 
-    cover: "song5.png"
+    cover: "blindingLights.png"
   }
 
 ]
