@@ -86,10 +86,10 @@
 }
 */
 
-html{
-  background-color: azure;
+body{
+  background-image: url("../img/bg1.png");
+  background-size: cover;
 }
-
 
 /*h1 = website title*/
 /*h2 = Art 101 and Group 10*/
@@ -141,18 +141,18 @@ h6{
 }
 
 
-/* MAIN BUTTON CONTAINER */
+/* MAIN BUTTON CONTAINER*/
 /*container for buttons and images*/
 .container {
   position: relative;
   width: auto;
 }
 
-/* Make the image responsive */
+/* Make the image responsive*/
 .container img {
   width: 100%;
   height: auto;
-  background-position: 80px 0px 70px 10px
+  background-position: center;
 }
 
 /* Styles the button within class start and place it in the middle of the container/image */
@@ -171,15 +171,12 @@ h6{
   cursor: pointer;
   border-radius: 5px;
 }
-/*hover effect for button "Main BUTTON" within the image*/
-.container .start:hover {
-  background-color: #8e8eb8;
-}
-
 
 #main-btn:hover{
   background-color: AliceBlue;
 }
+
+
 
 
 /* MOOD OPTIONS BUTTONS */
