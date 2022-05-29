@@ -94,12 +94,8 @@ body{
 /*h1 = website title*/
 /*h2 = Art 101 and Group 10*/
 h1, h2{
-  font-family: anton;
-  font-size: 60px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 1.1px;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
   text-align: center;
 }
 
