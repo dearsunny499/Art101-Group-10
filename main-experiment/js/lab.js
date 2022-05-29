@@ -834,8 +834,8 @@ var songTable5 = [
     " (<b><u><i>Zulu: lion</i></u></b>) written by Solomon Linda, "+
     " who worked for the Gallo Record Company as a cleaner, record packer, "+
     " and who performed with a choir, <b>The Evening Birds</b>.</li><br><li> "+
-    " According to South African journalist <b><u>Rian Malan</u></b>, "+
-    " <b>\"Solomon was the orrignal author of the lyric <i>'In the jungle, the mighty "+
+    " According to <b>South African journalist</b> <b><u>Rian Malan</u></b>, "+
+    " <b>\"Solomon was the orignal author of the lyric <i>'In the jungle, the mighty "+
     " jungle, the lion sleeps tonight'</i>\"</b></li></ol> "),
 
     title04: "<u>Mental Facts</u>:",
@@ -897,13 +897,13 @@ var songTable5 = [
     " known professionally as <b>The Weeknd</b>, is a Canadian singer-songwriter "+
     " and record producer.</li><br><li> Known for his sonic versatility and dark "+
     " lyricism, his music explores escapism, romance, and melancholia, and is "+
-    " often inspired by personal experiences. </li></ol> He has received numerous "+
-    " accolades, including: <br> <dd><b>- Four Grammy Awards </b></dd> <br> "+
+    " often inspired by personal experiences. </li><br><li> He has received numerous "+
+    " accolades, including: <br><br> <dd><b>- Four Grammy Awards </b></dd> <br> "+
     " <dd><b>- 20 Billboard Music Awards </b></dd> <br> <dd><b>- 17 Juno Awards "+
     " </b></dd> <br> <dd><b>- Six American Music Awards </b></dd> <br> "+
     " <dd><b>- Two MTV Video Music Awards </b></dd> <br> <dd><b>- Nominations for "+
     " an Academy Award </b></dd> <br> <dd><b>- Latin Grammy Award </b></dd> <br> "+
-    " <dd><b>- Primetime Emmy Award </li><br><li> Born and raised in <b>Toronto, "+
+    " <dd><b>- Primetime Emmy Award </b></dd></li><br><li> Born and raised in <b>Toronto, "+
     " Tesfaye</b> began his music career in 2009 by anonymously releasing music "+
     " on YouTube.</li></ol> "),
 
@@ -926,7 +926,7 @@ var songTable5 = [
     " someone in such a state of darkness and makes it hard to sleep.</li><br><li>"+
     " The Weekend commented, <b>\"You're driving to this person and you're just "+
     " blinded by streetlights, but nothing could stop you from trying to go see "+
-    " that person, because you're so lonely,\" </b> </li><br><li> He explained, "+
+    " that person, because you're so lonely.\" </b> </li><br><li> He explained, "+
     " listners will feel the pain of someone hearrbroken and the anxious want to "+
     " sleep but can't.</li></ol> "),
 
