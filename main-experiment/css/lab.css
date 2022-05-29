@@ -211,8 +211,11 @@ h6{
 /*Yanyaos Drop DOWN Button*/
 .dropbtn {
   border: none;
-  position: relative;
+  position: absolute;
   width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -260,12 +263,15 @@ h6{
 
 #about-cloud {
   width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #about-button-h3 {
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: Transparent;
