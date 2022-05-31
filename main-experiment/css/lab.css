@@ -304,3 +304,13 @@ h6{
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /*.dropdown:hover .dropbtn {background-color: #8e8eb8;}*/
+
+.song {
+  background-color: white; /* Green background */
+  border: none; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 20%; /* Set a width if needed */
+  border-radius: 1em;
+}
