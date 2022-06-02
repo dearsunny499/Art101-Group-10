@@ -11,6 +11,9 @@ $('#mood-5-songs').hide();
 
 $('#returnhome').hide();
 
+
+$('#bonus-button').hide();
+
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
@@ -42,18 +45,23 @@ function displaySongs() {
    if(idClicked==='mood1'){
       $("#mood-1-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood2') {
       $("#mood-2-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood3') {
       $("#mood-3-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood4') {
       $("#mood-4-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood5') {
       $("#mood-5-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }
    // consider a refactor: call proper song list based on mood idClicked
       // pull number out of string into a var
@@ -973,6 +981,14 @@ $('#returnhome').click(function() {
   location.reload();
 });
 
+$('#bonus-button').click(function() {
+  $("#songs").hide();
+  $("#mood-5-songs").hide();
+  $("#mood-4-songs").hide();
+  $("#mood-3-songs").hide();
+  $("#mood-2-songs").hide();
+  $("#mood-1-songs").hide();
+});
 //Particle effect
 
 particlesJS("particles-js", {"particles":{"number":{"value":260,"density":
