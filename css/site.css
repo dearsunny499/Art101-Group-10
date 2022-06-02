@@ -277,9 +277,20 @@ h6{
 }
 
 #bonus-button {
-  display: block;
-  margin-left: 85%;
-  width:  15%;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: Transparent;
+  border: none;
+  background-position: center;
+
+
+  background-image:url("../img/cloud_btn.png");
+  width: 350px;
+  height: 250px;
+  margin: 100px 0px 0px 1334px;
 }
 
 .mood-hide-container {
