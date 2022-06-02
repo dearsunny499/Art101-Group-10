@@ -21,11 +21,14 @@ function displayMoods() {
 // on main-btn button click, call displayMoods()
 $("#main-btn").click(displayMoods);
 
-// function to update htlm visability of song list assigned to a mood
-function displaySong1() {
-  $("#mood-1-songs").show();
-   alert('Anxiety button was clicked')
+//displays the edition spotify list
+function displaySpotify(){
+  $("#hidden").show();
+  $("#third-layer").hide();
+  $('#returnhome').show();
 }
+$("#edition-btn").click(displaySpotify);
+
 
 // on mood1 (anxiety) button click, call displayMoods()
 //$("#mood1").click(displaySong1);
@@ -958,6 +961,7 @@ $(".song").click(function(){
 
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
+
 </body>
 </html>
     `
