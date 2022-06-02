@@ -192,10 +192,10 @@ h6{
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   top:10%;
-  /* display: none; */
-  /* visibility: hidden; */
-  opacity: 100px;
-  transition: opacity 0.5s;
+  display: none;
+  /* visibility: hidden;  */
+  /* opacity: 100px;
+  transition: opacity 0.5s; */
   border-radius: 25px;
   position: absolute;
   background-color: #f1f1f1;
@@ -207,7 +207,7 @@ h6{
   padding: 10px 20px 10px 20px;
 }
 
-/* Links inside the dropdown */
+/* Content inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
