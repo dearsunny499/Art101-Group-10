@@ -22,13 +22,13 @@ function displayMoods() {
 $("#main-btn").click(displayMoods);
 
 //displays the edition spotify list
-function displaySpotify(){
-  $("#hidden").show();
-  $("#third-layer").hide();
-  $('#returnhome').show();
-}
-$("#edition-btn").click(displaySpotify);
-
+// function displaySpotify(){
+//   $("#hidden").show();
+//   $("#third-layer").hide();
+//   $('#returnhome').show();
+// }
+// $("#edition-btn").click(displaySpotify);
+//
 
 // on mood1 (anxiety) button click, call displayMoods()
 //$("#mood1").click(displaySong1);
