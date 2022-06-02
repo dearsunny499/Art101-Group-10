@@ -1,6 +1,6 @@
 body{
   background-image: url("../img/bg1.png");
-  background-size: cover;
+  background-size: fixed;
 }
 
 
