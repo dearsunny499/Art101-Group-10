@@ -3,11 +3,6 @@ body{
   background-size: cover;
 }
 
-/* #songs{
-  background-image: url("../img/second-back.png");
-  background-size: cover;
-} */
-
 
 /*h1 = website title*/
 /*h2 = Art 101 and Group 10*/
@@ -224,9 +219,8 @@ h6{
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  /* display: block; */
-  /* visibility: visible; */
-  opacity: 100%;
+   display: block;
+
 }
 
 
@@ -277,8 +271,15 @@ h6{
 
 #returnhome {
   display: block;
-  margin-left: 45%;
+  margin-left: 80%;
   width: 15%;
+  margin-top: -10%;
+}
+
+#bonus-button {
+  display: block;
+  margin-left: 85%;
+  width:  15%;
 }
 
 .mood-hide-container {
