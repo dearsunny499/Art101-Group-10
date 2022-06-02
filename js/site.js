@@ -13,7 +13,7 @@ $('#returnhome').hide();
 
 
 $('#bonus-button').hide();
-
+$("#edition").hide();
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
@@ -982,12 +982,14 @@ $('#returnhome').click(function() {
 });
 
 $('#bonus-button').click(function() {
+  $("#edition").show();
   $("#songs").hide();
   $("#mood-5-songs").hide();
   $("#mood-4-songs").hide();
   $("#mood-3-songs").hide();
   $("#mood-2-songs").hide();
   $("#mood-1-songs").hide();
+  
 });
 //Particle effect
 
