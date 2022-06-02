@@ -21,17 +21,7 @@ function displayMoods() {
 // on main-btn button click, call displayMoods()
 $("#main-btn").click(displayMoods);
 
-//displays the edition spotify list
-// function displaySpotify(){
-//   $("#hidden").show();
-//   $("#third-layer").hide();
-//   $('#returnhome').show();
-// }
-// $("#edition-btn").click(displaySpotify);
-//
 
-// on mood1 (anxiety) button click, call displayMoods()
-//$("#mood1").click(displaySong1);
 
 // how to get the id of the specific button clicked and hold it in variable
 var idClicked;
