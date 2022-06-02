@@ -9,10 +9,13 @@ $('#mood-3-songs').hide();
 $('#mood-4-songs').hide();
 $('#mood-5-songs').hide();
 
+$('#returnhome').hide();
+
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
   $("#first-layer").hide();
+  $('#returnhome').show();
 }
 
 // on main-btn button click, call displayMoods()
@@ -963,6 +966,10 @@ $(".song").click(function(){
 });
 
 $('#logo').click(function() {
+  location.reload();
+});
+
+$('#returnhome').click(function() {
   location.reload();
 });
 
