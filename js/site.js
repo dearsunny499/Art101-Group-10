@@ -962,7 +962,7 @@ $(".song").click(function(){
 
 });
 
-$('#header-img').click(function() {
+$('#logo').click(function() {
   location.reload();
 });
 
