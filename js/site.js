@@ -11,7 +11,9 @@ $('#mood-5-songs').hide();
 
 $('#returnhome').hide();
 
+
 $('#bonus-button').hide();
+
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
@@ -23,6 +25,9 @@ function displayMoods() {
 $("#main-btn").click(displayMoods);
 
 
+
+// on mood1 (anxiety) button click, call displayMoods()
+//$("#mood1").click(displaySong1);
 
 // how to get the id of the specific button clicked and hold it in variable
 var idClicked;
@@ -36,18 +41,23 @@ function displaySongs() {
    if(idClicked==='mood1'){
       $("#mood-1-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood2') {
       $("#mood-2-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood3') {
       $("#mood-3-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood4') {
       $("#mood-4-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood5') {
       $("#mood-5-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }
    // consider a refactor: call proper song list based on mood idClicked
       // pull number out of string into a var
@@ -213,16 +223,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -399,16 +405,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -584,16 +586,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -743,16 +741,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -940,19 +934,14 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
-
 </body>
 </html>
     `
@@ -973,7 +962,6 @@ $('#bonus-button').click(function() {
   $("#mood-2-songs").hide();
   $("#mood-1-songs").hide();
 });
-
 //Particle effect
 
 particlesJS("particles-js", {"particles":{"number":{"value":260,"density":
