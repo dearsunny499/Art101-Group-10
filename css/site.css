@@ -273,8 +273,9 @@ h6{
 
 #returnhome {
   display: block;
-  margin-left: 45%;
+  margin-left: 80%;
   width: 15%;
+  margin-top: -10%;
 }
 
 .mood-hide-container {
