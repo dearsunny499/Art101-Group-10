@@ -1,7 +1,8 @@
 body{
   background-image: url("../img/bg1.png");
-  background-size: fixed;
+  background-size: cover;
 }
+
 
 
 /*h1 = website title*/
@@ -290,7 +291,7 @@ h6{
   background-image:url("../img/cloud_btn.png");
   width: 350px;
   height: 250px;
-  margin: 100px 0px 0px 1334px;
+  margin: 90px 0px 0px 1334px;
 }
 
 .mood-hide-container {
