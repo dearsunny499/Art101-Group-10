@@ -9,20 +9,22 @@ $('#mood-3-songs').hide();
 $('#mood-4-songs').hide();
 $('#mood-5-songs').hide();
 
+$('#returnhome').hide();
+
+
+$('#bonus-button').hide();
+$("#edition").hide();
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
   $("#first-layer").hide();
+  $('#returnhome').show();
 }
 
 // on main-btn button click, call displayMoods()
 $("#main-btn").click(displayMoods);
 
-// function to update htlm visability of song list assigned to a mood
-function displaySong1() {
-  $("#mood-1-songs").show();
-   alert('Anxiety button was clicked')
-}
+
 
 // on mood1 (anxiety) button click, call displayMoods()
 //$("#mood1").click(displaySong1);
@@ -39,18 +41,23 @@ function displaySongs() {
    if(idClicked==='mood1'){
       $("#mood-1-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood2') {
       $("#mood-2-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood3') {
       $("#mood-3-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood4') {
       $("#mood-4-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }else if (idClicked==='mood5') {
       $("#mood-5-songs").show();
       $("#second-layer").hide();
+      $('#bonus-button').show();
    }
    // consider a refactor: call proper song list based on mood idClicked
       // pull number out of string into a var
@@ -216,16 +223,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -402,16 +405,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -587,16 +586,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -746,16 +741,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -943,16 +934,12 @@ $(".song").click(function(){
 
   songHTML = `
     <img class="cover" src='img/${songData.cover}'>
-
     <h4 class=title>${songData.songTitle}</h4>
 		<h5 class=title>${songData.author}</h5>
-
     <h6 class=title02>${songData.title02}</h6>
     <div class="desc">${songData.description}</div>
-
     <h6 class=title03>${songData.title03}</h6>
     <div class="desc">${songData.description02}</div>
-
     <h6 class=title04>${songData.title04}</h6>
     <div class="desc">${songData.description03}</div>
 </body>
@@ -962,6 +949,35 @@ $(".song").click(function(){
 
 });
 
-$('#header-img').click(function() {
+
+$('#returnhome').click(function() {
   location.reload();
 });
+
+$('#bonus-button').click(function() {
+  $("#edition").show();
+  $("#songs").hide();
+  $("#mood-5-songs").hide();
+  $("#mood-4-songs").hide();
+  $("#mood-3-songs").hide();
+  $("#mood-2-songs").hide();
+  $("#mood-1-songs").hide();
+});
+//Particle effect
+
+particlesJS("particles-js", {"particles":{"number":{"value":260,"density":
+{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":
+{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":
+{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":
+{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":
+{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},
+"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":
+{"enable":true,"speed":1,"direction":"none","random":true,"straight":
+false,"out_mode":"out","bounce":false,"attract":
+{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":
+{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":
+{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":
+{"distance":400,"line_linked":{"opacity":1}},"bubble":
+{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":
+{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":
+{"particles_nb":2}}},"retina_detect":true})
