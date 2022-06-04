@@ -52,7 +52,7 @@ h6{
 
 /* Facts */
 .desc{
-  font-family: 'Anton', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: white;
@@ -74,85 +74,125 @@ h6{
 }
 
 #main-btn{
-  text-shadow: 0px 0px 0px red;
-  transition: text-shadow 0.5s;
+    text-shadow: 0px 0px 20px red;
+
 }
+
+
 #main-btn:hover{
   text-shadow: 0px 0px 30px #d8cbf9;
 }
+
+
+
 /* Styles the button within class start and place it in the middle of the container/image */
 .container .start {
   position: absolute;
-  top: 67%;
-  left: 52%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: Transparent;
-  color: #FFF5EE;
-  font-size: 3em;
-  font-family: 'Anton', sans-serif;
-  text-align: center;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+    top: 67%;
+    left: 52%;
+    transform: translate(-55%, -30%);
+    color: #b6ccf1;
+    font-size: 4em;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-style: italic;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
+/* Neon Effect */
+ :root {
+  --shadow-color: #FF9E9E;
+  --shadow-color-light: white;
+}
 
-
+@keyframes neon {
+  0% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  50% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+    0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+  }
+  100% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+}
 
 /* MOOD OPTIONS BUTTONS */
 
 #mood1, #mood2, #mood3, #mood4,#mood5{
   font-family: 'Anton', sans-serif;
-  font-size: 20px;
   text-align: center;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: Transparent;
   border: none;
   background-position: center;
+
 }
 
 #mood1{
   background-image:url("../img/cloud_btn.png");
+  font-size: 30px;
   width: 390px;
   height: 290px;
   margin: 90px 0px 0px 0px;
-
+  color: #b6ccf1;
+  animation: neon 1s infinite;
 }
 
 #mood2{
   background-image:url("../img/cloudbutton2.png");
+  font-size: 30px;
   width: 490px;
   height: 390px;
   margin-left: 287px;
   margin-top: -120px;
-
+  color: #b6ccf1;
+  animation: neon 1s infinite;
 }
 
 #mood3{
   background-image:url("../img/cloudbutton3.png");
+  font-size: 30px;
   width: 590px;
   height: 490px;
   margin: -690px 0px 0px -190px;
+  color: #b6ccf1;
+  animation: neon 1s infinite;
 }
 
 #mood4{
   background-image:url("../img/cloud_btn.png");
+  font-size: 30px;
   width: 390px;
   height: 290px;
   margin-left: 300px;
   margin-top: -80px;
+  color: #b6ccf1;
+  animation: neon 1s infinite;
 }
 
 #mood5{
   background-image:url("../img/cloudbutton3.png");
+  font-size: 30px;
   width: 490px;
   height: 390px;
   margin-left: 100px;
   margin-top: -90px;
+  color: #b6ccf1;
+  animation: neon 1s infinite; 
 }
+
+
 
 /*Cover song images*/
 .cover {
