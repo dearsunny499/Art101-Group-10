@@ -103,28 +103,28 @@ h6{
 }
 
 /* Neon Effect */
- :root {
-  --shadow-color: #456dac;
+ /* :root {
+  --shadow-color: #83a8eb;
   --shadow-color-dark: white;
 }
 
 @keyframes neon {
   0% {
-    text-shadow: -1px -1px 1px var(--shadow-color-dark), -1px 1px 1px var(--shadow-color-dark), 1px -1px 1px var(--shadow-color-dark), 1px 1px 1px var(--shadow-color-dark),
-    0 0 3px var(--shadow-color-dark), 0 0 10px var(--shadow-color-dark), 0 0 20px var(--shadow-color-dark),
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
     0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
   }
   50% {
-    text-shadow: -1px -1px 1px var(--shadow-color-dark), -1px 1px 1px var(--shadow-color-dark), 1px -1px 1px var(--shadow-color-dark), 1px 1px 1px var(--shadow-color-dark),
-    0 0 5px var(--shadow-color-dark), 0 0 15px var(--shadow-color-dark), 0 0 25px var(--shadow-color-dark),
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
     0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
   }
   100% {
-    text-shadow: -1px -1px 1px var(--shadow-color-dark), -1px 1px 1px var(--shadow-color-dark), 1px -1px 1px var(--shadow-color-dark), 1px 1px 1px var(--shadow-color-dark),
-    0 0 3px var(--shadow-color-dark), 0 0 10px var(--shadow-color-dark), 0 0 20px var(--shadow-color-light),
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
     0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
   }
-}
+} */
 
 /* MOOD OPTIONS BUTTONS */
 
@@ -146,8 +146,16 @@ h6{
   height: 290px;
   margin: 90px 0px 0px 0px;
   color: #b6ccf1;
-  animation: neon 1s infinite;
+  /* animation: neon 1s infinite; */
+  text-shadow: 0px 0px 20px blue;
+  transition: 0.5s;
 }
+
+#mood1:hover{
+  text-shadow: 0px 0px 30px #83a8eb;
+}
+
+
 
 #mood2{
   background-image:url("../img/cloudbutton2.png");
@@ -344,6 +352,12 @@ h6{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /*.dropdown:hover .dropbtn {background-color: #8e8eb8;}*/
 
+/* Border for the facts  */
+.border{
+  border: 300px solid transparent;
+  padding: 30px;
+  border-image: url("../img/border.png") 100 round;
+}
 
 .song{
   padding: 0.6em 2em;
