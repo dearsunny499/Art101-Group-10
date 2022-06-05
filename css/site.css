@@ -75,12 +75,12 @@ h6{
 
 #main-btn{
     text-shadow: 0px 0px 20px red;
-
+    transition: 0.5s;
 }
 
 
 #main-btn:hover{
-  text-shadow: 0px 0px 30px #d8cbf9;
+  text-shadow: 0px 0px 30px #b6ccf1;
 }
 
 
@@ -91,7 +91,7 @@ h6{
     top: 67%;
     left: 52%;
     transform: translate(-55%, -30%);
-    color: #b6ccf1;
+    color: white;
     font-size: 4em;
     font-family: 'Rubik', sans-serif;
     text-align: center;
@@ -189,7 +189,7 @@ h6{
   margin-left: 100px;
   margin-top: -90px;
   color: #b6ccf1;
-  animation: neon 1s infinite; 
+  animation: neon 1s infinite;
 }
 
 
@@ -255,6 +255,7 @@ h6{
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
+
 }
 
 
@@ -318,7 +319,7 @@ h6{
 }
 
 #bonus-button {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 30px;
   text-align: center;
   background-size: contain;
@@ -326,7 +327,6 @@ h6{
   background-color: Transparent;
   border: none;
   background-position: center;
-
 
   background-image:url("../img/cloud_btn.png");
   width: 350px;
