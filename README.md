@@ -2,7 +2,7 @@
 
 #Credits:
 
-#Makkenzie Zepeda: Programming, Web Development, Web Design Research 
+#Makkenzie Zepeda: Programming, Web Development, Web Design, Research 
 
 #Yanyao Hu: Programming, Web Development, Web Design, Research
 
