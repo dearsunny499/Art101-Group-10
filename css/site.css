@@ -77,7 +77,8 @@ h6{
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   line-height: 30px;
-  color: black;
+  color: beige;
+  /* opacity: 0.5; */
   font-weight: bold;
   border: solid 3px #a2bbea;
   padding-left: 20px;
@@ -87,7 +88,7 @@ h6{
   margin: 20px;
   margin-right: 620px;
   margin-bottom: 50px;
-  background-color: #ebe8fa;
+  background-color: #4973b3;
 
 }
 
