@@ -800,9 +800,9 @@ var songTable5 = [
 
     title02: "<u>Artist Facts</u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li><b>The Tokens</b> were an American doo-wop band and "+
-    " record production company group from Brooklyn, New York City, who are best "+
-    " known for their chart-topping 1961 hit single, <b>\"The Lion Sleeps Tonight\"</b>.</li><br><li>"+
+    description: ("<ol><li><b><span>The Tokens</b><span>were an American doo-wop band and </span>"+
+    " <span>record production company group from Brooklyn, New York City, who are best </span>"+
+    " <span>known for their chart-topping 1961 hit single,</span><b><span>\"The Lion Sleeps Tonight\".</span></b></li><br><li>"+
     " The band was formed in 1955 at <b>Brooklyn's \"Abraham Lincoln\" High School</b>"+
     " of New York City, and was known first as the <b>Linc-Tones</b>, a name inspired "+
     " by the <u><b>President of the United States' surname</b></u>.</li><br><li>"+
