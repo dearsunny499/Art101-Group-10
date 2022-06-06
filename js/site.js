@@ -14,6 +14,7 @@ $('#returnhome').hide();
 
 $('#bonus-button').hide();
 $("#edition").hide();
+
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
@@ -24,10 +25,6 @@ function displayMoods() {
 // on main-btn button click, call displayMoods()
 $("#main-btn").click(displayMoods);
 
-
-
-// on mood1 (anxiety) button click, call displayMoods()
-//$("#mood1").click(displaySong1);
 
 // how to get the id of the specific button clicked and hold it in variable
 var idClicked;
@@ -59,10 +56,8 @@ function displaySongs() {
       $("#second-layer").hide();
       $('#bonus-button').show();
    }
-   // consider a refactor: call proper song list based on mood idClicked
-      // pull number out of string into a var
-      // concat number to '#mood-' + number +'-songs'
-      // display songs
+
+
 }
 
 // on any mood button click, call displaySongs()
@@ -758,8 +753,6 @@ $(".song").click(function(){
 
 
 
-
-
 //Insomnia SongTable
 var songTable5 = [
 	{
@@ -963,6 +956,8 @@ $('#bonus-button').click(function() {
   $("#mood-2-songs").hide();
   $("#mood-1-songs").hide();
 });
+
+
 //Particle effect
 
 particlesJS("particles-js", {"particles":{"number":{"value":260,"density":
