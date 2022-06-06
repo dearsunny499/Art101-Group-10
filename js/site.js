@@ -798,14 +798,14 @@ var songTable5 = [
   	songTitle: "The Lion Sleeps Tonight",
 		author: "Song by: The Tokens",
 
-    title02: "<u>Artist Facts</u>: ",
+    title02: "<u><span>Artist Facts</span></u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li><b><span>The Tokens</b><span>were an American doo-wop band and </span>"+
-    " <span>record production company group from Brooklyn, New York City, who are best </span>"+
-    " <span>known for their chart-topping 1961 hit single,</span><b><span>\"The Lion Sleeps Tonight\".</span></b></li><br><li>"+
-    " The band was formed in 1955 at <b>Brooklyn's \"Abraham Lincoln\" High School</b>"+
+    description: ("<ol><li><b>The Tokens</b>were an American doo-wop band and"+
+    " record production company group from Brooklyn, New York City, who are best "+
+    " known for their chart-topping 1961 hit single, <b>\"The Lion Sleeps Tonight\".</b></li><br><li>"+
+    " The band was formed in 1955 at <b>Brooklyn's \"Abraham Lincoln\" High School </b>"+
     " of New York City, and was known first as the <b>Linc-Tones</b>, a name inspired "+
-    " by the <u><b>President of the United States' surname</b></u>.</li><br><li>"+
+    " by the <u><b>President of the United States' surname</b></u>. </li><br><li>"+
     " Original members were <b>Neil Sedaka</b>, <b>Hank Medress</b>, <b>Eddie Rabkin</b>, "+
     " and <b>Cynthia Zolotin</b>, however <b>Rabkin</b> was replaced in 1956 by <b>Jay Siegel</b>.</li></ol> "),
 

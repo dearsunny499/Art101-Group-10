@@ -35,19 +35,24 @@ h3{
 }
 
 h4{
+  text-align: center;
   font-size: 35px;
   margin-bottom: 10px;
+  color: beige;
 }
 
 h5{
+  text-align: center;
   font-size: 35px;
   line-height: 1px;
   margin-bottom: 60px;
+  color: beige;
 }
 
 h6{
   font-size: 30px;
   margin-bottom: 50px;
+  color: black;
 }
 
 /* Facts */
@@ -56,15 +61,19 @@ h6{
   font-size: 20px;
   line-height: 30px;
   color: black;
+  font-weight: bold;
+  border: solid 2px #a2bbea;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  width: fit-Content;
+  margin: 20px;
+  margin-right: 620px;
+  margin-bottom: 5px;
+  background-color: #ebe8fa;
+
 }
 
-li{
-  background-color: #d5f4e6;
-  width: fixed;
-}
- span{
-  background-color: #d5f4e6;
-}
 
 /* MAIN BUTTON CONTAINER*/
 /*container for buttons and images*/
@@ -365,12 +374,7 @@ li{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /*.dropdown:hover .dropbtn {background-color: #8e8eb8;}*/
 
-/* Border for the facts  */
-/* .border{
-  border: 300px solid transparent;
-  padding: 30px;
-  border-image: url("../img/border.png") 100 round;
-} */
+
 
 .song{
   padding: 0.6em 2em;
