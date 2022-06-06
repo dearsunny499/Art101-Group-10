@@ -14,6 +14,7 @@ $('#returnhome').hide();
 
 $('#bonus-button').hide();
 $("#edition").hide();
+
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
   $("#hidden").show();
@@ -24,10 +25,6 @@ function displayMoods() {
 // on main-btn button click, call displayMoods()
 $("#main-btn").click(displayMoods);
 
-
-
-// on mood1 (anxiety) button click, call displayMoods()
-//$("#mood1").click(displaySong1);
 
 // how to get the id of the specific button clicked and hold it in variable
 var idClicked;
@@ -59,10 +56,8 @@ function displaySongs() {
       $("#second-layer").hide();
       $('#bonus-button').show();
    }
-   // consider a refactor: call proper song list based on mood idClicked
-      // pull number out of string into a var
-      // concat number to '#mood-' + number +'-songs'
-      // display songs
+
+
 }
 
 // on any mood button click, call displaySongs()
@@ -758,8 +753,6 @@ $(".song").click(function(){
 
 
 
-
-
 //Insomnia SongTable
 var songTable5 = [
 	{
@@ -798,14 +791,14 @@ var songTable5 = [
   	songTitle: "The Lion Sleeps Tonight",
 		author: "Song by: The Tokens",
 
-    title02: "<u>Artist Facts</u>: ",
+    title02: "<u><span>Artist Facts</span></u>: ",
     //need to make these bullet point notes
-    description: ("<ol><li><b>The Tokens</b> were an American doo-wop band and "+
+    description: ("<ol><li><b>The Tokens</b>were an American doo-wop band and"+
     " record production company group from Brooklyn, New York City, who are best "+
-    " known for their chart-topping 1961 hit single, <b>\"The Lion Sleeps Tonight\"</b>.</li><br><li>"+
-    " The band was formed in 1955 at <b>Brooklyn's \"Abraham Lincoln\" High School</b>"+
+    " known for their chart-topping 1961 hit single, <b>\"The Lion Sleeps Tonight\".</b></li><br><li>"+
+    " The band was formed in 1955 at <b>Brooklyn's \"Abraham Lincoln\" High School </b>"+
     " of New York City, and was known first as the <b>Linc-Tones</b>, a name inspired "+
-    " by the <u><b>President of the United States' surname</b></u>.</li><br><li>"+
+    " by the <u><b>President of the United States' surname</b></u>. </li><br><li>"+
     " Original members were <b>Neil Sedaka</b>, <b>Hank Medress</b>, <b>Eddie Rabkin</b>, "+
     " and <b>Cynthia Zolotin</b>, however <b>Rabkin</b> was replaced in 1956 by <b>Jay Siegel</b>.</li></ol> "),
 
@@ -963,6 +956,8 @@ $('#bonus-button').click(function() {
   $("#mood-2-songs").hide();
   $("#mood-1-songs").hide();
 });
+
+
 //Particle effect
 
 particlesJS("particles-js", {"particles":{"number":{"value":260,"density":
