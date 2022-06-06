@@ -14,6 +14,7 @@ $('#returnhome').hide();
 
 $('#bonus-button').hide();
 $("#edition").hide();
+$("#lastHeader").hide();
 
 // function to update htlm visability to display all mood buttons
 function displayMoods() {
@@ -949,6 +950,7 @@ $('#returnhome').click(function() {
 
 $('#bonus-button').click(function() {
   $("#edition").show();
+  $("#lastHeader").show();
   $("#songs").hide();
   $("#mood-5-songs").hide();
   $("#mood-4-songs").hide();

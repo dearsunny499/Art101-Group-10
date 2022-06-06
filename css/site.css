@@ -3,18 +3,35 @@ body{
   background-size: cover;
 }
 
+/* DreamFlow */
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Art 101 - Group 10 */
+#projectn{
+  display: block;
+  margin-left: 40%;
+  width: 30%;
+}
+
+#lastHeader{
+  display: block;
+  margin-left: 24%;
+  margin-bottom: 6%;
+  width: 55%;
+  height: 39%;
+}
 
 
-/*h1 = website title*/
-/*h2 = Art 101 and Group 10*/
-h1, h2{
-  font-family: 'Anton', sans-serif;
-  font-size: 60px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 1.1px;
-  text-align: center;
+#returnhome {
+  display: block;
+  margin-left: 80%;
+  width: 15%;
+  margin-top: -10%;
 }
 
 /*h3 = About Us Label (inside pop up)*/
@@ -60,7 +77,8 @@ h6{
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   line-height: 30px;
-  color: black;
+  color: beige;
+  /* opacity: 0.5; */
   font-weight: bold;
   border: solid 3px #a2bbea;
   padding-left: 20px;
@@ -69,8 +87,8 @@ h6{
   width: fit-Content;
   margin: 20px;
   margin-right: 620px;
-  margin-bottom: 5px;
-  background-color: #ebe8fa;
+  margin-bottom: 50px;
+  background-color: #4973b3;
 
 }
 
@@ -340,28 +358,6 @@ h6{
   position: absolute;
   z-index: 2;
 }
-/* DreamFlow */
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-/* Art 101 - Group 10 */
-#projectn{
-  display: block;
-  margin-left: 40%;
-  width: 30%;
-}
-
-#returnhome {
-  display: block;
-  margin-left: 80%;
-  width: 15%;
-  margin-top: -10%;
-}
-
 
 
 .mood-hide-container {
@@ -389,6 +385,7 @@ h6{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 3%;
 }
 
 
